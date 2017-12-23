@@ -28,8 +28,8 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.1em;
     color: #333;
 }
 footer {
@@ -39,7 +39,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 ul.posts li {
@@ -48,5 +48,5 @@ ul.posts li {
 
 ul.a {
     list-style-type: circle;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
