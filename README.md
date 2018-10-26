@@ -4,20 +4,26 @@
 <details> 
 <summary></summary>
 custom_mark10
-  digraph G {
-    size ="4,4";
-    StockData [shape=box];
-    Telegram [shape=diamond];
-    Manager;
-    Consultant ["n Consultants"];
-    Manager -> Consultant;
-    Consultant -> StockData;
-    Consultant -> Telegram;
-    Manager -> Telegram;
-    Human -> Telegram;
-  }
+digraph {
+    subgraph cluster_0 {
+        label="Multi-Agent System";
+        StockData [shape=box];
+        Manager;
+        Consultant ["n Consultants"];
+        Manager -> Consultant;
+        Consultant -> StockData;
+        Consultant -> Telegram;
+        Manager -> Telegram;
+    }
+    subgraph cluster_1 {
+        label="Humans";
+        Telegram [shape=diamond];
+        Human -> Telegram;
+    }
+}
 custom_mark10
 </details>
+
 
 ![Alt text](https://g.gravizo.com/source/svg/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Fcleberjamaral%2Fcleberjamaral.github.io%2Fmaster%2FREADME.md?3)
 
