@@ -4,12 +4,12 @@
 <details> 
 <summary></summary>
 custom_mark10
-digraph {
+digraph G {
     subgraph cluster_0 {
         label="Multi-Agent System";
         StockData [shape=box];
         Manager;
-        Consultant ["n Consultants"];
+        Consultant [label="n Consultants"];
         Manager -> Consultant;
         Consultant -> StockData;
         Consultant -> Telegram;
@@ -17,6 +17,7 @@ digraph {
     }
     subgraph cluster_1 {
         label="Humans";
+	Human [shape=circle];
         Telegram [shape=diamond];
         Human -> Telegram;
     }
