@@ -14,4 +14,5 @@ finantialAgentsMainIdea
     Manager -> Telegram;
     Human -> Telegram;
   }
+finantialAgentsMainIdea
 </details>
