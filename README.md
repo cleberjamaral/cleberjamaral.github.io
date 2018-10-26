@@ -19,10 +19,6 @@ custom_mark10
 custom_mark10
 </details>
 
-This allows to include your graphs in the README and is still readable in a normal text editor.
-
-**SVG output** it's ready. Only need to replace https://g.gravizo.com/g? by https://g.gravizo.com/svg? and https://g.gravizo.com/source? by https://g.gravizo.com/source/svg?
-
 ![Alt text](https://g.gravizo.com/source/svg/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Fcleberjamaral%2Fcleberjamaral.github.io%2Fmaster%2FREADME.md?3)
 
 <details> 
@@ -39,7 +35,7 @@ class Structural{}
 
 /**
 *@opt all
-*@note Class
+*@note Class hi
 */
 class Counter extends Structural {
         static public int counter;
@@ -49,7 +45,7 @@ class Counter extends Structural {
 /**
 *@opt shape activeclass
 *@opt all
-*@note Active Class
+*@note Active Class test
 */
 class RunningCounter extends Counter{}
 custom_mark12
