@@ -1,7 +1,7 @@
 
 # Team organization and task allocation problem
 
-![Alt text](https://g.gravizo.com/source/finantialAgentsPhases?https%3A%2F%2Fraw.githubusercontent.com%2Fcleberjamaral%2FfinantialAgents%2Fmaster%2FREADME.md?1)
+![Alt text](https://g.gravizo.com/source/autoOrgDesign?https%3A%2F%2Fraw.githubusercontent.com%2Fcleberjamaral%2Fcleberjamaral.github.io%2Fmaster%2FREADME.md?1)
 <details> 
 <summary>Phases</summary>
 autoOrgDesign
