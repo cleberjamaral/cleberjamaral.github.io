@@ -6,12 +6,12 @@
 <summary>Phases</summary>
 autoOrgDesign
 @startuml;
-(*) -right-> "There is a problem to solve\nby multiple agents\nat least one goal.\nthe tasks are complex, with little centralized knowledge";
+(*) -right-> "There is a problem to solve\nby multiple agents\nat least one goal.\nthe tasks are complex,\nwith little centralized knowledge";
 -right-> "Split the goals\nin to smaller peaces";
 -right-> "Suggests roles\nto be responsible for certain goals.";
 -down-> "Agents get commited to roles";
 -left-> "Agents helps to plan detailed actions";
--right-> (*) 
+-left-> (*) 
 @enduml 
 autoOrgDesign
 </details>
