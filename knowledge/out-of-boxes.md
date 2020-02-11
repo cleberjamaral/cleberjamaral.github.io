@@ -2,7 +2,7 @@
 description: Here some useful information that I often consult.
 ---
 
-# index
+# out of boxes
 
 knowledge
 

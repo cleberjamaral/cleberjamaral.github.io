@@ -4,5 +4,5 @@
 * [knowledge](knowledge/README.md)
   * [git](knowledge/git.md)
   * [writing](knowledge/writing.md)
-  * [index](knowledge/index.md)
+  * [out of boxes](knowledge/out-of-boxes.md)
 
