@@ -11,7 +11,7 @@
   * [programming](knowledge/programming/README.md)
     * [java](knowledge/programming/java.md)
     * [javascript](knowledge/programming/javascript.md)
-  * [writing](knowledge/writing/README.md)
+  * [writing](knowledge/writing.md)
     * [expressions](knowledge/writing/expressions.md)
   * [math](knowledge/math.md)
   * [git](knowledge/git.md)
