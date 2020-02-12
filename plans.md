@@ -1,6 +1,8 @@
 # plans
 
-I also plan so finally develop my personal assistant, an agent to help me on real useful things. Someone I can trust and delegate some tasks. [http://www.opencyc.org/doc](http://www.opencyc.org/doc)
+I use [github projects](https://github.com/users/cleberjamaral/projects/) to manage my private dashboard with my current activities.
+
+I also plan so finally develop my personal assistant, an agent to help me on real useful things. Someone I can trust and delegate some tasks. See [cyc a knowledge representation and reasoning software](http://www.opencyc.org/doc). 
 
 It looks old-fashioned but I still think I have to writing my experience with JAX-RS. This [article](https://javapapers.com/java/restful-web-services-with-java-jax-rs-using-jersey/) shows some very basic steps which is good to follow.
 

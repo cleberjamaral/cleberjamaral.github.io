@@ -3,6 +3,7 @@
 * [Cleber's mind](README.md)
 * [plans](plans.md)
 * [knowledge](knowledge/README.md)
+  * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
   * [mas](knowledge/mas.md)
   * [planning](knowledge/planning.md)
