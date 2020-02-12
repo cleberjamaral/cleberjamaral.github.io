@@ -1,27 +1,24 @@
-# Cleber's knowledge base
+---
+description: This is an attempt to structure my memory
+---
 
-## Getting Super Powers
+# Cleber's mind
 
-Becoming a super hero is a fairly straight forward process:
+## What is on
 
-```
-$ give me super-powers
-```
+This is an ongoing book. Currently, I am using that as my notebook. I am often a hoarder and the best way to prevent productivity loss and avoid burnout is to put everything that is in my mind "on the paper" so I can decide what is garbage to put it in the trash bin.
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+It is something out of my [circle of influence](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People) of, but I admit I am reactive to coronavirus numbers following [worldometer](https://www.worldometers.info/coronavirus/).
 
-Once you're strong enough, save the world:
+## About this book
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+Like everyone I often forget things and often I remember things that I prefer to forget. This repository contains what I would like to keep in memory. In this sense, it is an idealisation where I can keep [useful information](knowledge/), nice [moments](moments.md) and write down the reasoning rules I would like to follow.
 
-![Alt text](https://g.gravizo.com/source/autoOrgDesign?https%3A%2F%2Fraw.githubusercontent.com%2Fcleberjamaral%2Fcleberjamaral.github.io%2Fmaster%2FREADME.md?1)
+It is pretty much inspired in [Nikita's knowledge book](https://github.com/nikitavoloboev/knowledge) which was the first I found that is doing something that I was looking for.
 
-Phases autoOrgDesign @startuml; \(\*\) -right-&gt; "There is a problem to solve\nby multiple agents\nat least one goal.\nthe tasks are complex,\nwith little centralized knowledge"; -right-&gt; "Split the goals\nin to smaller peaces"; -right-&gt; "Suggests roles\nto be responsible for certain goals."; -down-&gt; "Agents get commited to roles"; -left-&gt; "Agents helps to plan detailed actions"; -left-&gt; \(\*\) @enduml autoOrgDesign
+I plan to write down much of my knowledge here and later try to provide some easy way to connect things. Some guys are using some mindmap tools, but it seems not very fluent yet.
+
+I also plan so finally develop my personal assistant based on it \([more about my plans](plans.md)\).
+
+
 
