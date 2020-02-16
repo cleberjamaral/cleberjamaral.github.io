@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Cleber's mind](README.md)
-* [plans](plans/README.md)
-  * [personal assistant](plans/personal-assistant.md)
+* [plans](plans.md)
 * [knowledge](knowledge/README.md)
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
@@ -32,4 +31,5 @@
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
 * [moments](moments.md)
+* [personal webpage](https://cleberjamaral.github.io/)
 
