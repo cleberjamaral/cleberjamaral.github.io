@@ -31,5 +31,9 @@
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
 * [moments](moments.md)
+
+## external links
+
 * [personal webpage](https://cleberjamaral.github.io/)
+* [my github](https://github.com/cleberjamaral)
 
