@@ -1,2 +1,0 @@
-# ongoing study
-

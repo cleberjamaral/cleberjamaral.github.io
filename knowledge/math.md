@@ -1,5 +1,5 @@
 ---
-description: Things about mathematics.
+description: 'Things about mathematics  [draft article]'
 ---
 
 # math
