@@ -7,7 +7,7 @@
   * [productivity](knowledge/productivity.md)
   * [programming](knowledge/programming/README.md)
     * [C/C++](knowledge/programming/c-c++.md)
-    * [mas](knowledge/mas.md)
+    * [mas](knowledge/programming/mas.md)
     * [planning](knowledge/planning.md)
     * [java](knowledge/programming/java.md)
     * [javascript](knowledge/programming/javascript.md)
