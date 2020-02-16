@@ -7,7 +7,7 @@ description: 'git stuffs [draft article]'
 ### git commands
 
 * [gitexplorer](http://gitexplorer.com) is a quick way to find the right git command for each need
-* [Merging git branch into master](https://gist.github.com/cleberjamaral/94410e296e80aa66f0d38c88ca5234fe)
+* steps for [merging git branch into master](https://gist.github.com/cleberjamaral/94410e296e80aa66f0d38c88ca5234fe)
 
 ### git as a maven repository
 
