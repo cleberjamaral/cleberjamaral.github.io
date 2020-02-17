@@ -2,7 +2,7 @@
 
 I use [github projects](https://github.com/users/cleberjamaral/projects/) to manage my private dashboard with my current activities. But I have lots and lots of things that I would like to do, "just" need time do spend with them. I not gonna define a schedule for those things. I gonna just let them happen naturally.
 
-### things I would like to do 
+## things I would like to do
 
 * I plan so finally develop my personal [assistant](personal-assistant.md).
 * It looks old-fashioned but I still think I have to writing my experience with JAX-RS. This [article](https://javapapers.com/java/restful-web-services-with-java-jax-rs-using-jersey/) shows some very basic steps which is good to follow.
