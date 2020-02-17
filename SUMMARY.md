@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Cleber's mind](README.md)
-* [plans](plans.md)
+* [plans](plans/README.md)
+ * [personal assistant](knowledge/personal-assistant.md)
 * [knowledge](knowledge/README.md)
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
