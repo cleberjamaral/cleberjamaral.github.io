@@ -1,6 +1,8 @@
 # java
 
+My snippets
 
+* [Java pass by value](http://groovyconsole.appspot.com/script/5150188356239360)! A snippet showing that on send objects to a method, the method receives a copy of a reference, although it points to the original object it does not change the reference itself. Conclusion: java pass by value, not by reference.
 
 Eclipse
 
