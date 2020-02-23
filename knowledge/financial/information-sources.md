@@ -5,10 +5,9 @@
 * [Suno research: Brazil and US](https://www.sunoresearch.com.br/) 
 * [Morningstar: US](https://www.morningstar.com/)
 
-### Nice articles and reports
+### Nice articles
 
 * [Suno: the most important indicators for your analysis \(Portuguese\)](https://www.sunoresearch.com.br/artigos/os-indicadores-mais-importantes-em-uma-analise/)
-* [J.P.Morgan Brazil 101 Handbook 2020](https://wiki.sj.ifsc.edu.br/images/8/8c/JP_morgan_Brazil_101_2020.pdf) is a good way to understand this complex country. The report confirms the good expectations from the economy recovery started in 2018.
 * [ABC do dinheiro: Saving account x Funds x Bonds](http://www.abcdodinheiro.com.br/2015/03/poupanca-x-fundo-di-x-cdb-x-tesouro.html)
 * [New Zealand's stock market first steps](http://www.sharechat.co.nz/first-steps.html). 
 * [The best and worst NZ performing stocks of the 2019](https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=12297437).
