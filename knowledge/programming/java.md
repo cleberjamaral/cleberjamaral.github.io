@@ -3,6 +3,7 @@
 My snippets
 
 * [Java pass by value](http://groovyconsole.appspot.com/script/5150188356239360)! A snippet showing that on send objects to a method, the method receives a copy of a reference, although it points to the original object it does not change the reference itself. Conclusion: java pass by value, not by reference.
+* [Finding an algorithm / equation that matches with observations ](http://groovyconsole.appspot.com/script/5203477827420160)using groovy assert.
 
 Eclipse
 
