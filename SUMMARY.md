@@ -3,6 +3,7 @@
 * [Cleber's mind](README.md)
 * [plans](plans/README.md)
   * [personal assistant](plans/personal-assistant.md)
+* [self-management](self-management.md)
 * [knowledge](knowledge/README.md)
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
