@@ -23,5 +23,6 @@
 * [InfoMoney recommended tools](https://minhaconta.infomoney.com.br/ferramentas)
 * [Valor recommended wallet](https://valor.globo.com/valor-data/carteira-valor/)
 * [guru stock picks Joel Greenblatt](https://www.gurufocus.com/guru/joel+greenblatt/stock-picks)
+* [New Zealand's stock market](http://www.sharechat.co.nz/first-steps.html)
 * Investing.com: Major [Stock Market Indexes ](https://www.investing.com/indices/major-indices)
 

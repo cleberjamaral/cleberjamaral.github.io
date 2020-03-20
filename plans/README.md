@@ -9,7 +9,6 @@ I use [github projects](https://github.com/users/cleberjamaral/projects/) to man
 * Learn about quantum computing: [video](https://www.youtube.com/watch?feature=youtu.be&v=JRIPV0dPAd4)
 * Learn React: [chat](https://medium.com/@jasofalcon/simple-chat-react-java-6923b54d65a0), [video tutorial](https://www.youtube.com/watch?v=hzLDsxPGctY)
 * Study [javassist](https://en.m.wikipedia.org/wiki/Javassist) and improve the way to deal with running instances in [jacamo-web](https://github.com/jacamo-lang/jacamo-web) project.
-* Know more about [New Zealand's stock market](http://www.sharechat.co.nz/first-steps.html). [The best and worst performing stocks of the year](https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=12297437).
 * Revive [Peleus](https://github.com/meneguzzi/Peleus) project which is an implementation of an AgentSpeak agent interpreter based on the Jason implementation, with the addition of a STRIPS planning module. Currently there is a [fork](https://github.com/cleberjamaral/Peleus) where the planning by jPlan \(that uses graphplan\) is working at least in simple tests.
 * "Consulting Board": A MAS developing different agents to perform AI algorithms in specialised research fields. In an organisational dimension a coordination based in norms, trust and reputation may gather all opinions of these experts to suggest a decision.
 * [Disaster-robotics-proalertas](https://disaster-robotics-proalertas.github.io/) which aims to build an integrated system to control a team of heterogeneous robots and alert systems.
