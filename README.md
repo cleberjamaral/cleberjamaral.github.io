@@ -18,7 +18,7 @@ This is an ongoing book. Currently, I am using that as my notebook. I am often a
 
 "Agent DevOps" is a research that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner.
 
-It is something out of my [circle of influence](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People) of, but I admit I am reactive to coronavirus numbers following [worldometer](https://www.worldometers.info/coronavirus/) and [brazilian health ministry](http://plataforma.saude.gov.br/novocoronavirus/#COVID-19-brazil) statistics.
+It is something out of my [circle of influence](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People) of, but I admit I am reactive to coronavirus numbers following [worldometer](https://www.worldometers.info/coronavirus/), [brazilian health ministry](http://plataforma.saude.gov.br/novocoronavirus/#COVID-19-brazil) and [new zealand health ministry](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-cases) statistics.
 
 ### About this book
 
