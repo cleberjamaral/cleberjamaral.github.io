@@ -8,3 +8,7 @@ I plan to try some tools that have good support to symbolic mathematics. I think
 
 I often use [desmos](https://www.desmos.com/) and [wolframalpha](https://www.wolframalpha.com) which are tools that help me to create symbolic equations with graphical visualization.
 
+I have lots of info I would like to retrieve and put here including statistics studies I have done.
+
+[video](https://youtu.be/kqSzLo9fenk) about bayes theorem, markov hidden chain and viterbi algorithm.
+
