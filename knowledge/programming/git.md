@@ -4,6 +4,10 @@ description: 'git stuffs [draft article]'
 
 # version control
 
+## useful information
+
+* [this article](https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/) presents basic concepts about Continuous Integration \(CI\) and Continuous Delivery \(CD\).
+
 ## git commands
 
 * [gitexplorer](http://gitexplorer.com) is a quick way to find the right git command for each need
