@@ -15,6 +15,7 @@
     * [javascript](knowledge/programming/javascript.md)
     * [version control](knowledge/programming/git.md)
   * [research](knowledge/research/README.md)
+    * [data sources](knowledge/research/data-sources.md)
     * [machine learning](knowledge/research/machine-learning.md)
     * [mas](knowledge/research/mas.md)
     * [nlp](knowledge/research/nlp.md)
