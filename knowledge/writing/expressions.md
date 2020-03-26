@@ -10,3 +10,5 @@ Among my notes I use to consult a [signpost of linking words and phrases](https:
 * as dictionary I usually opt for [merriam-webster](https://www.merriam-webster.com/) which is easy and free. I also like [wiktionary](https://www.wiktionary.org/).
 * I also use [grammarly](https://app.grammarly.com/) and [language tool](https://www.languagetool.org/), which are useful to check for errors and get helpful tips in the way of improving the text.
 
+
+
