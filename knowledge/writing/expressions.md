@@ -1,6 +1,6 @@
 # expressions
 
-Among my notes I use to consult a [signpost of linking words and phrases](https://gist.github.com/cleberjamaral/d7148453acc2cb7b500d8438822b7a87) that helps to make textual links and a [signpost of nice words and phrases](https://gist.github.com/cleberjamaral/b2c05a8b651d047642114ab38afd173c) which is a notebook for nice expressions I have collected. 
+Among my notes I use to consult a [signpost of linking words and phrases](https://gist.github.com/cleberjamaral/d7148453acc2cb7b500d8438822b7a87) and [signpost of correlative conjunctions](https://gist.github.com/cleberjamaral/cac090a3c28b7844a75768d1ea8926bf) that helps to make textual links and a [signpost of nice words and phrases](https://gist.github.com/cleberjamaral/b2c05a8b651d047642114ab38afd173c) which is a notebook for nice expressions I have collected. 
 
 ### My favorite resources:
 
