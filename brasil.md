@@ -8,7 +8,7 @@ Contrariando outros artigos, este que trata do Brasil está escrito em portuguê
 
 Há tempos tenho guardado os planos de governo de municípios da região, estado e país. Seguem alguns:
 
-* Plano de governo de Jair Bolsonaro - 2018
+* [Plano de governo de Jair Bolsonaro - 2018](https://github.com/cleberjamaral/cleberjamaral.github.io/blob/master/files/PLANO_DE_GOVERNO_JAIR_BOLSONARO_2018.pdf)
 
 
 
