@@ -36,6 +36,7 @@
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
 * [moments](moments.md)
+* [Brasil](brasil.md)
 
 ## external links
 
