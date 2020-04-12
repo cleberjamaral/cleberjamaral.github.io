@@ -10,6 +10,7 @@
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
   * [programming](knowledge/programming/README.md)
+    * [Apache Camel](knowledge/programming/apache-camel.md)
     * [C/C++](knowledge/programming/c-c++.md)
     * [java](knowledge/programming/java.md)
     * [javascript](knowledge/programming/javascript.md)
