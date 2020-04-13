@@ -1,4 +1,4 @@
-# Apache Camel
+# apache camel
 
 ### Sending email \(gmail\) by camel routes
 
