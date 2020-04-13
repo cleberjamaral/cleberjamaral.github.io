@@ -32,10 +32,23 @@ Copyright (C) 1999-2020 Daniel Diaz
 
 Importing **zoo.pl** and making first assertion:
 
-`|?- [zoo].  
+`|?- consult(zoo).  
 |?- animal(X).`
 
-The answer will be `X = turtle ?`, pressing `;` it shows `X = tiger ?`, pressing `;` again it shows the last true value for X: `X = giraffe`
+The answer will be `X = turtle ?`, pressing `;` it shows `X = tiger ?`, pressing `;` again it shows the last true value for X: `X = giraffe`. The command `consult(file)` and be replaced by `[file]`.
+
+In fact, currently, it is all we have in the database as we can check using listing command:
+
+`|?- listing.  
+  
+% file: /media/data/zoo.pl  
+  
+animal(turtle).   
+animal(tiger).   
+animal(giraffe).  
+  
+yes  
+|?-`
 
 To exit from gnu prolog:
 
