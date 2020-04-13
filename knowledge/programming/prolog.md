@@ -54,3 +54,9 @@ To exit from gnu prolog:
 
 `|?-` Ctrl+C, then `e` \(to exit\).
 
+### To be continued...
+
+I am following the material from [http://www.cs.trincoll.edu/~ram/cpsc352/notes/](http://www.cs.trincoll.edu/~ram/cpsc352/notes/) which is very practical.
+
+
+
