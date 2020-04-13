@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<TITLE>PROLOG: Knight's tour</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER><H2>PROLOG: The Knight's Tour</H2></CENTER>
+
+<h3>Introduction</h3>
+
+In the game of chess, a knight can move either two squares horizontally and one
+vertically or two vertically followed by one square horizontally, as
+long as it remains on the board.  There are thus eight possible
+moves that the knight can make:
+
+<pre>
+   2 left, 1 down
+   2 left, 1 up
+   2 right, 1 down
+   2 right, 1 up
+   2 up, 1 left
+   2 up, 1 right
+   2 down, 1 left
+   2 down, 1 right
+</pre>
+
+<p>In <a href="http://www.delphiforfun.org/programs/knights_tour.htm">knight's
+tour problem</a> the goal is to find a series of legal moves in which
+the knight lands on each square of the chessboard exactly once.
+
+<p>We will look at a <b>simplified verions</b> in which the goal is to
+find a series of legal moves that takes the knight from one square to
+another on a 3 x 3 chessboard.
+
+<h3>The Simplified Knight's Tour</h3>
+
+Suppose we represent the squares of a 3 x 3 chess board with the
+following notation:
+
+<pre>
+   1  2  3
+   4  5  6
+   7  8  9
+</pre>
+
+Then the following list of predicates describe all of the legal moves that
+a knight can make on such a chess board:
+
+<pre>
+  move(1,6).   move(3,4).    move(6,7).   move(8,3).
+  move(1,8).   move(3,8).    move(6,1).   move(8,1).
+  move(2,7).   move(4,3).    move(7,6).   move(9,4).
+  move(2,9).   move(4,9).    move(7,2).   move(9,2).
+</pre>
+
+Suppose you wanted to determine whether a path exists from one
+square to another using just the legal knight moves. Here's a
+recursive predicate for path:
+
+<pre>
+   path(Z,Z).
+   path(X,Y) :- move(X,W),not(visited(W)),asserta(visited(W)),path(W,Y).
+</pre>
+
+This version of <tt>path()</tt> uses the <tt>asserta()</tt> predicate
+to maintain a list of visited states. This will prevent looping.
+Here's a <a href="knights16v1.pl.txt">PROLOG implementation</a> of this
+design.
+
+<h3>Exercise</h3>
+
+1. What facts will get asserted during the query <b>path(1,2)</b>?
+
+
+<p>An alternative design would be to use a list to represent the
+visited states, and just carry the list along as a third parameter:
+
+<pre>
+   path(Z,Z,L).
+   path(X,Y,L) :- move(X,Z),not(member(Z,L)),path(Z,Y,[Z|L]).
+</pre>
+
+The third parameter maintains a list of visited states. Note how
+the  state Z is added to the list in the recursive call. 
+Here's a <a href="knights16v2.pl.txt">PROLOG implementation</a> of this
+design.
+
+<h3>Exercise</h3>
+
+1. Trace the following query: <b>path(1,3,[1])</b>.
+
+<h3>Generalizing the Representation for 8 x 8 Chessboard</h3>
+
+<p>Another way to code the rules that would work better for an 8 x 8
+board. We illustrate this approach using a 4 x 4 board but the same
+principles and relations will apply for an N x N board.  Suppose the
+board is numbered starting from 0:
+
+<pre>
+0  1  2  3       (0,0) (0,1) (0,2) (0,3)
+4  5  6  7       (1,0) (1,1) (1,2) (1,3)
+8  9  10 11      (2,0) (2,1) (2,2) (2,3)
+12 13 14 15      (3,0) (3,1) (3,2) (3,3)
+</pre>
+
+There 8 types of knight moves:
+
+<pre>
+right 1 down 2   left 1 down 2
+right 2 down 1   left 2 down 1
+right 1 up 2     left 1 up 2
+right 2 up 1     left 2 up 1
+</pre>
+
+<p>Here's a definition for right 1 down 2. If the present location is X,
+then find the row and column numbers for Y. For any X, ColX is X mod 4
+and RowX is X div 4. E.g., if X = 0, then (RowX,ColX) = (0,0); if X = 6, 
+then (RowX,ColX) = (1,2); if X = 15, the (RowX,ColX) = (3,3). After
+you compute (RowX,ColX), then moving right 1 down 2 gives
+(RowX+2,ColX+1). But then these numbers have to be converted back to
+square number using the formula: Y = Row * 4 + Col. Here's
+what it looks like in PROLOG.
+
+<pre>
+move(X,Y) :- 
+	ColX is X mod 4,      % remainder of X/4
+        RowX is X // 4,       % divisor of X/4
+        Col is ColX + 1,      % right 1
+        Col < 4,           
+        Row is RowX + 2,      % down 2
+	Row < 4,
+        Y is Row * 4 + Col,
+        Y >= 0.
+</pre>
+
+
+<h3>Analysis of the Knight's Tour</h3>
+
+<p><b>Could the above exhaustive approach be extended to the full Knight's Tour?</b>
+
+<p>The goal of the Knight's Tour is to construct a path from
+an arbitrary position on the chess board such that it visits
+each square on the board exactly once. Can this problem be
+solved through exhaustive search?
+
+<p>What's the (average) <b>branching factor, B</b> for the Knight's Tour?
+
+<p>What's the <b>path length, L</b> for a successful solution
+of the Knight's Tour?
+
+<p>Approximately how many states, T, would be involved in the
+exhaustive search of the Knight's Tour? (approximately B<sup>L</sup>)
+
+<h3>Warnsdorf's Heuristic</h3> 
+
+Fortunately there is a well know heuristic for the Knight's Tour,
+which was discovered by H.C. von Warnsdorf in 1823. (See <a href="http://www.delphiforfun.org/programs/knights_tour.htm">the Delphi website</a> for a brief discussion of the Knight's Tour and
+other puzzles.)
+
+<p>The heuristic tells us to select as our next move the one that has the fewest
+choices for moving on from there.
+
+
+</body>
+</HTML>

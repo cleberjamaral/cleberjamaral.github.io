@@ -1,0 +1,218 @@
+<HTML>
+<HEAD>
+<TITLE>PROLOG Lists</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER><H2>Searching in PROLOG</H2></CENTER>
+
+<p>Recursion is the primary control mechanism for Prolog programming,
+and the list structure is the primary data structure used for representing
+complex data.
+
+<h3>Recursion Example</h3>
+
+<blockquote>
+<pre>
+ancestor_of(Ancest,Descend) :-  parent_of(Ancest,Descend).  /* base case */
+ancestor_of(Ancest,Descend) :-  parent_of(Z,Descend),      /* recursive case */
+                                ancestor_of(Ancest,Z).
+</pre>
+</blockquote>
+
+<p><b>In-class Exercise: </b>Trace <tt>ancestor_of(X,d)</tt> 
+using the following facts.
+
+<blockquote>
+<pre>
+parent_of(a,b).
+parent_of(b,c).
+parent_of(c,d).
+parent_of(d,e).
+</pre>
+</blockquote>
+
+<p><b>In-class Exercise: </b>Define a recursive <tt>descendant_of(X,Y)</tt>.
+
+
+<h3>Prolog List Notation</h3>
+
+In Prolog list elements are enclosed by brackets  and separated by commas.
+
+<pre>
+  [1,2,3,4]
+  [[mary,joe],[bob,carol,ted,alice]]
+  []
+</pre>
+
+<p>Another way to represent a list is to use the <b>head/tail
+notation</b> <tt>[H|T]</tt>. Here the head of the list, H, is
+separated from the tail of the list, T, by a vertical bar. The tail of
+a list is the original list with its first element removed. The tail
+of a list is always a list, even if it's the empty list.
+
+<p>In Prolog, the H|T notation is used together with unification to
+combine and break up lists. For example, suppose we have the following
+list:
+
+<pre>
+  [bob,carol,ted,alice]
+</pre>
+
+Here's the various matches we would obtain using H|T:
+
+<pre>
+  [X|Y]        matches with X=bob Y=[carol,ted,alice]
+  [X,Y|Z]      matches with X=bob, Y=carol, Z=[ted,alice]
+  [X,Y,Z|W]    matches with X=bob, Y=carol, Z=ted W=[alice]
+  [X,Y,Z,W|V]  matches with X=bob, Y=carol, Z=ted,  W=alice and V=[]
+  [X,Y,Z,Y]    won't match because Y=carol and carol != alice
+  [X,Y,Z,W,V|U] won't match because the list does not contain 5 elements
+</pre>
+
+<p>We can also build lists using unification and H|T notation. Suppose
+L unifies with [X|Y] and X=bob and Y=[carol,ted,alice]. Then
+L=[bob,carol,ted,alice].
+
+<h3>Recursive List Examples</h3>
+
+<p>In some Prolog environments the <tt>member</tt> predicate is not a
+built-in predicate and must be defined within your program. It takes
+the form <tt>member(Element,List)</tt> and evaluates to true if and
+only if Element is a member of List.  The underscore (_) can be used
+as a <b>anonymous</b> or <b>don't care</b> variable, meaning we don't
+care what value it has. It's there solely for pattern-matching (unification)
+purposes.
+
+<blockquote>
+<pre>
+member(X,[X|_]).          /* 1. Base case:      X is a member of the list headed by X */
+member(X,[Y|L]) :-        /* 2.  Recursive case: X is a member of the list headed by Y */
+   member(X,L).           /*                     if X is a member of that list's tail (L) */
+</pre>
+</blockquote>
+
+<p>Here's a trace of the member() predicate on the query: member(c,[a,b,c]).
+
+<blockquote>
+<pre>
+member(c,[a,b,c]).
+    call 1 (base case). fails, since c != a.
+    call 2 (recursive case). X=c, Y=a, L=[b,c], member(c,[b,c]) ?
+      call 1 (base). fails, since c != b.
+      call 2 (recursive). X=c, Y=b, L=[c], member(c,[c]) ?
+         call 1. Success, c = c.
+      Yes to call 2. (backing out of recursion)
+    Yes to call 2.   (backing out of recursion)
+Yes.                 (original query succeeds)
+</pre>
+</blockquote>
+
+
+<p>Here's a trace of the member() predicate on the query: member(c,[a,b]).
+
+<blockquote>
+<pre>
+member(c,[a,b]).
+    call 1 (base case). fails, since c != a.
+    call 2 (recursive case). X=c, Y=a, L=[b], member(c,[b]) ?
+      call 1 (base). fails, since c != b.
+      call 2 (recursive). X=c, Y=b, L=[], member(c,[]) ?
+         call 1. fails, since [] does not match [X|_].
+         call 2. fails, since [] does not match [Y|L].
+      No to call 2. (backing out of recursion)
+    No to call 2.   (backing out of recursion)
+No.                 (original query succeeds)
+</pre>
+</blockquote>
+
+<p>The following predicate writes each element of a list using Prolog's
+built-in <tt>write()</tt> predicate and built-in <tt>nl</tt> (newline)
+predicate:
+
+<blockquote>
+<pre>
+writelist([]).                                 /* Base case: An empty list */
+writelist([H|T]) :- write(H),nl,writelist(T).  /* Recursive case: */
+</pre>
+</blockquote>
+
+
+<p>The following predicate writes a list in reverse order:
+<blockquote>
+
+<pre>
+reverse_writelist([]).                                         /* Base case: An empty list */
+reverse_writelist([H|T]) :- reverse_writelist(T),write(H),nl.  /* Recursive case: */
+</pre>
+</blockquote>
+
+<h3>The Knight's Tour</H3>
+
+Suppose we represent the squares of a 3 x 3 chess board with the
+following notation:
+
+<pre>
+   1  2  3
+   4  5  6
+   7  8  9
+</pre>
+
+Then the following list of predicates describe all of the legal moves that
+a knight can make on such a chess board:
+
+<pre>
+  move(1,6).   move(3,4).    move(6,7).   move(8,3).
+  move(1,8).   move(3,8).    move(6,1).   move(8,1).
+  move(2,7).   move(4,3).    move(7,6).   move(9,4).
+  move(2,9).   move(4,9).    move(7,2).   move(9,2).
+</pre>
+
+Suppose you wanted to determine whether a path exists from one
+square to another using just the legal knight moves. Here's a
+recursive predicate for path:
+
+<pre>
+   path(Z,Z).
+   path(X,Y) :- move(X,W),not(been(W)),assert(been(W)),path(W,Y).
+</pre>
+
+This version of <tt>path()</tt> uses the <tt>assert()</tt> predicate
+to maintain a list of visited states. This will prevent looping.
+
+<p>An alternative design would be to use a list to represent the
+visited states, and just carry the list along as a third parameter:
+
+<pre>
+   path(Z,Z,L).
+   path(X,Y,L) :- move(X,Z),not(member(Z,L)),path(Z,Y,[Z|L]).
+</pre>
+
+The third parameter maintains a list of visited states. Note how
+the  state Z is added to the list in the recursive call. 
+
+<h3>Exercise</h3>
+
+Trace the following query: path(1,3,[1]).
+
+<h3>The Cut Operator</h3>
+
+The <b>cut</b> operator, which is represented by the exclamation point, !, is
+used to cut off backtracking. The syntax for cut is that of a goal with
+no arguments. It has two important side-effects:
+
+<ul>
+<li>The cut operator always succeeds.
+<P><li>If it is "failed back to", during backtracking, it causes the
+    entire goal to fail.
+</ul>
+
+One of the best uses of the cut operator is in the definition of 
+Prolog's <tt>not()</tt> predicate, which recall represents <b>negation
+as failure</b>.
+
+<pre>
+   not(P) :- call(P),!,fail.     /* Call P. If it succeeds, fail.          */
+   not(P).                       /* If Call P fails, then not(P) succeeds. */
+</body>
+</HTML>
