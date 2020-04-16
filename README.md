@@ -16,13 +16,11 @@ This is an ongoing book. Currently, I am using that as my notebook. I am often a
 
 [Finding new routes for integrating Multi-Agent Systems using Apache Camel](https://arxiv.org/abs/1905.10490) a tool to afford the interaction with external entities as agents and artifacts.
 
-"Agent DevOps" is a research that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner.
-
-It is something out of my [circle of influence](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People) of, but I admit I am reactive to coronavirus numbers following [worldometer](https://www.worldometers.info/coronavirus/), [covid-19 dashboards](https://covid19dashboards.com/), [brazilian health ministry](https://covid.saude.gov.br/) and [new zealand health ministry](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-cases) statistics.
+"Agent DevOps" is a study that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner.
 
 ### About this book
 
-Like everyone I often forget things and often I remember things that I prefer to forget. This repository contains what I would like to keep in memory. In a way it is summarising knowledge which is a [good way to memorise things](https://www.inc.com/jeff-haden/how-to-remember-anything-you-really-want-to-remember-backed-by-science.html). In this sense, it is an idealisation where I can keep [useful information](knowledge/), nice [moments](moments.md) and write down the reasoning rules I would like to follow.
+Like everyone, I often forget things and often I remember things that I prefer to forget. This repository contains what I would like to keep in memory. In a way it is summarising knowledge which is a [good way to memorise things](https://www.inc.com/jeff-haden/how-to-remember-anything-you-really-want-to-remember-backed-by-science.html). In this sense, it is an idealisation where I can keep [useful information](knowledge/), nice [moments](moments.md) and write down the reasoning rules I would like to follow.
 
 It is pretty much inspired in [Nikita's knowledge book](https://github.com/nikitavoloboev/knowledge) which was the first I found that is doing something that I was looking for.
 
