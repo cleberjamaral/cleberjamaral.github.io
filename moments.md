@@ -4,7 +4,7 @@ description: Things I have seen
 
 # moments
 
-I am more active on [twitter](https://twitter.com/cleberjamaral), but don't expect too much. I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) account in which I rarely post something, but I try to keep the profile updated. I have a [facebook](https://www.facebook.com/) account where I also don't use to post very often and I use to remove my old posts \(which is probably ineffective against [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica), [Clearview](https://edition.cnn.com/2020/02/10/tech/clearview-ai-ceo-hoan-ton-that/index.html) and similar\). I use [google photos](https://photos.google.com/) to store my private digital albums.
+I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) account in which I rarely post something, but I try to keep the profile updated. I also have a [facebook](https://www.facebook.com/) and [twitter](https://twitter.com/cleberjamaral) account where I don't use to post very often and I use to remove my old posts \(which is probably ineffective against [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica), [Clearview](https://edition.cnn.com/2020/02/10/tech/clearview-ai-ceo-hoan-ton-that/index.html) and similar\). I use [google photos](https://photos.google.com/) to store my private digital albums.
 
 ## Recent activities
 

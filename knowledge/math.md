@@ -12,3 +12,5 @@ I have lots of info I would like to retrieve and put here including statistics s
 
 [video](https://youtu.be/kqSzLo9fenk) about bayes theorem, markov hidden chain and viterbi algorithm.
 
+
+

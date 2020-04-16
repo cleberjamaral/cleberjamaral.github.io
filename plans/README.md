@@ -6,8 +6,9 @@ I use [github projects](https://github.com/users/cleberjamaral/projects/) to man
 
 * I plan so finally develop my personal [assistant](personal-assistant.md).
 * It looks old-fashioned but I still think I have to writing my experience with JAX-RS. This [article](https://javapapers.com/java/restful-web-services-with-java-jax-rs-using-jersey/) shows some very basic steps which is good to follow.
-* Learn about quantum computing: [video](https://www.youtube.com/watch?feature=youtu.be&v=JRIPV0dPAd4)
-* Learn React: [chat](https://medium.com/@jasofalcon/simple-chat-react-java-6923b54d65a0), [video tutorial](https://www.youtube.com/watch?v=hzLDsxPGctY)
+* Learn about quantum computing: [video](https://www.youtube.com/watch?feature=youtu.be&v=JRIPV0dPAd4).
+* Learn React: [chat](https://medium.com/@jasofalcon/simple-chat-react-java-6923b54d65a0), [video tutorial](https://www.youtube.com/watch?v=hzLDsxPGctY).
+* Develop a simulation engine for JaCaMo. I can have some inspiration on [manim project](https://github.com/3b1b/manim).
 * Study [javassist](https://en.m.wikipedia.org/wiki/Javassist) and improve the way to deal with running instances in [jacamo-web](https://github.com/jacamo-lang/jacamo-web) project.
 * "Consulting Board": A MAS developing different agents to perform AI algorithms in specialised research fields. In an organisational dimension a coordination based in norms, trust and reputation may gather all opinions of these experts to suggest a decision. I have a first approach in this direction at the project called [financial agents](https://github.com/cleberjamaral/financialAgents/) which is \(usually\) running on this server. Right now, I am trying to put it in a [container managed by kubernetes](https://gist.github.com/cleberjamaral/2bbf21eb1bddfec8b4c6c01111eba102) as a workaround for some downtime I am experiencing.
 * [Disaster-robotics-proalertas](https://disaster-robotics-proalertas.github.io/) which aims to build an integrated system to control a team of heterogeneous robots and alert systems.
