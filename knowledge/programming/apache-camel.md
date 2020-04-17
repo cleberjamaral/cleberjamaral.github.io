@@ -1,5 +1,9 @@
 # apache camel
 
+### Creating a component from archetype
+
+* [How to create a camel component from archetype](https://gist.github.com/cleberjamaral/2914b691085cfaa6a163b7ba39d75af8)
+
 ### Sending email \(gmail\) by camel routes
 
 1. Enable [gmail app passwords](https://support.google.com/accounts/answer/185833). 
