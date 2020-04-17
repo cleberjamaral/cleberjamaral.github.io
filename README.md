@@ -1,22 +1,18 @@
+---
+description: This is an attempt to structure my memory
+---
+
 # Cleber's mind
-
-### description: This is an attempt to structure my memory
-
-## Cleber's mind
 
 ### What is on
 
-This is an ongoing book. Currently, I am using that as my notebook. I am often a hoarder and the best way to prevent productivity loss and avoid burnout is to put everything that is in my mind "on the paper" so I can decide what is garbage to put it in the trash bin.
+This is an ongoing book. Currently, I am using that as my notebook. I am often a hoarder and the best way to prevent productivity loss and avoid burnout is to put everything that is in my mind "on the paper" so I can decide what is garbage to throw them away.
 
 #### Current Projects
 
-[GoOrg: Automated Organisational Chart Design for Open Multi-Agent Systems](https://link.springer.com/chapter/10.1007/978-3-030-24299-2_28) is an automated organisation generator for open Multi Agent System.
+I am going to present the demo paper of "A Framework for Collaborative and Interactive Agent-oriented Developer Operations" in [AAMAS 2020](https://aamas2020.conference.auckland.ac.nz/) which is based on "Agent DevOps", a study that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner.
 
-[Jacamo-web is on the fly: an interactive Multi-Agent System IDE](http://cgi.csc.liv.ac.uk/~lad/emas2019/accepted/EMAS2019_paper_8.pdf) _\*\*_an interactive programming IDE to develop Multi-Agent Systems.
-
-[Finding new routes for integrating Multi-Agent Systems using Apache Camel](https://arxiv.org/abs/1905.10490) a tool to afford the interaction with external entities as agents and artifacts.
-
-"Agent DevOps" is a study that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner.
+I have other studies that are under revision which titles are: "Agent Programming for Industrial Applications: Some Advantages and Drawbacks" and "Towards Jacamo-rest: Multi-Agent Systems from the Perspective of Resource-Oriented Architecture".
 
 ### About this book
 
