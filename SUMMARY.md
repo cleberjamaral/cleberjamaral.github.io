@@ -9,6 +9,7 @@
 * [knowledge](knowledge/README.md)
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
+  * [linux](knowledge/linux.md)
   * [programming](knowledge/programming/README.md)
     * [eclipse](knowledge/programming/eclipse.md)
     * [C/C++](knowledge/programming/c-c++.md)
