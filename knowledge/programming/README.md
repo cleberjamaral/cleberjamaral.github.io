@@ -4,7 +4,12 @@ description: programming stuffs
 
 # programming
 
-This section is about programming. Most of subsections are detailing programming languages that I have used.
+This section is about programming. Most of the subsections are detailing programming languages that I have used.
+
+### Learning programming
+
+* For the first steps and children it is great to try [code.org](https://code.org/) and [scratch](https://scratch.mit.edu/).
+* [Codingame](https://www.codingame.com/start) is a nice tool for learning many languages such as Java, Javascript, C and others. 
 
 ### Common concepts
 
