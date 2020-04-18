@@ -14,9 +14,11 @@ description: Deploying bootcamp sample application
 ### Accessing bootcamp pod
 
 * Set environment variable $POD\_NAME to make further commands easier `$ export POD_NAME=$(microk8s.kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')` 
-  * If it does not work run `$ microk8s.kubectl get pods` copy the name of the pod and set the variable manually `$ export $POD_NAME=kubernetes-bootcamp-XXXXX`
+  * If it does not work run `$ microk8s.kubectl get pods` copy the name of the pod and set the variable manually `$ export POD_NAME=kubernetes-bootcamp-XXXXX`
 * Enabling proxy access to debug pods `$ microk8s.kubectl proxy`
-  * Get information from the created pod: `$ curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/`
+  * Get information from the created pod \(from another terminal\)
+
+    `$ curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/`
 * Get environment variables `$ microk8s.kubectl exec $POD_NAME -- env`
 * Run terminal of the pod `$ microk8s.kubectl exec -ti $POD_NAME bash`
 * Show a file content `# cat server.js`

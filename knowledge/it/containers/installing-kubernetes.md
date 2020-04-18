@@ -22,17 +22,17 @@ description: Installing a kubernetes by microk8s
 * Proxy access to pods to debug them `$ microk8s.kubectl proxy`
 * From another terminal: `$ curl http://localhost:8001/version`
 
-### Stopping and starting microk8s
+### Stopping and starting kubernetes
 
-* Stopping: `$ microk8s.stop`
-* Starting: `$ microk8s.start`
+* Stopping microk8s `$ microk8s.stop`
+* Starting microk8s `$ microk8s.start`
 
-### Microk8s troubleshooting
+### Troubleshooting
 
-* Inspecting: `$ microk8s.inspect`
-* Reset: `$ microk8s.reset`
+* Inspecting microk8s `$ microk8s.inspect`
+* Resetting microk8s `$ microk8s.reset`
 
-### Removing microk8s
+### Removing
 
 * To remove microk8s: `$ sudo snap remove microk8s`
 
