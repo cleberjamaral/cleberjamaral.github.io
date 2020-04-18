@@ -13,6 +13,7 @@
       * [deploying bootcamp](knowledge/it/containers/deploying-bootcamp.md)
       * [deploying nginx](knowledge/it/containers/deploying-nginx.md)
       * [grafana](knowledge/it/containers/grafana.md)
+      * [docker](knowledge/it/containers/docker.md)
     * [linux](knowledge/it/linux.md)
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)

@@ -10,8 +10,6 @@ description: Deploying nginx sample application
 
 * Deploying demo: `$ microk8s.kubectl create deployment nginx --image=nginx`
 * Get all pods: `$ microk8s.kubectl get pods`
-* Get all info from all namespaces: `$ microk8s.kubectl get all --all-namespaces`
-* Get node log: `$ microk8s.kubectl describe nodes`
 
 ### Accessing nginx pod
 
@@ -20,4 +18,9 @@ description: Deploying nginx sample application
   * Get information from the created pod \(from another terminal\) `$ curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/`
 * Get environment variables `$ microk8s.kubectl exec $POD_NAME -- env`
 * Run terminal of the pod `$ microk8s.kubectl exec -ti $POD_NAME bash`
+  * Type `exit` to leave the section
+
+### Removing nginx deployment
+
+* Removing `$ microk8s.kubectl delete deployment.apps/nginx`
 

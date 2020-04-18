@@ -8,10 +8,8 @@ description: Deploying bootcamp sample application
 
 * Deploying demo: `$ microk8s.kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1`
 * Get all pods: `$ microk8s.kubectl get pods`
-* Get all info from all namespaces: `$ microk8s.kubectl get all --all-namespaces`
-* Get node log: `$ microk8s.kubectl describe nodes`
 
-### Accessing bootcamp pod
+### Accessing bootcamp deployment
 
 * Set environment variable $POD\_NAME to make further commands easier `$ export POD_NAME=$(microk8s.kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')` 
   * If it does not work run `$ microk8s.kubectl get pods` copy the name of the pod and set the variable manually `$ export POD_NAME=kubernetes-bootcamp-XXXXX`
@@ -22,8 +20,9 @@ description: Deploying bootcamp sample application
 * Get environment variables `$ microk8s.kubectl exec $POD_NAME -- env`
 * Run terminal of the pod `$ microk8s.kubectl exec -ti $POD_NAME bash`
 * Show a file content `# cat server.js`
+  * Type `exit` to leave the section
 
-### Exposing a deployment
+### Exposing the deployment
 
 * Get current services `$ microk8s.kubectl get services`
 * Expose bootcamp deployment on port 8080 `$ microk8s.kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080`
