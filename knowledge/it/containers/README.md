@@ -6,3 +6,10 @@ Kubernetes is a great and very accessible tool. Documentation is great. A good f
 
 Here I have some note about how to install microk8s, a solution for deploying a kubernetes cluster locally. The article [installing kubernetes](installing-kubernetes.md) explain how to set up a linux machine for microk8s and the article [deploying bootcamp](deploying-bootcamp.md) shows a simples example of deployment.
 
+### Sources
+
+* [kubernetes-with-microk8s](https://ubuntu.com/tutorials/install-a-local-kubernetes-with-microk8s#4-accessing-the-kubernetes-and-grafana-dashboards)
+* [microk8s docs](https://microk8s.io/docs/)
+* [kubernetes bootcamp tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/) \([old version](https://kubernetesbootcamp.github.io/kubernetes-bootcamp/)\)
+* [installing kubernetes locally](https://kubernetes.io/blog/2019/11/26/running-kubernetes-locally-on-linux-with-microk8s/)
+

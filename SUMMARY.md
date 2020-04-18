@@ -11,6 +11,8 @@
     * [containers and clusters](knowledge/it/containers/README.md)
       * [installing kubernetes](knowledge/it/containers/installing-kubernetes.md)
       * [deploying bootcamp](knowledge/it/containers/deploying-bootcamp.md)
+      * [deploying nginx](knowledge/it/containers/deploying-nginx.md)
+      * [grafana](knowledge/it/containers/grafana.md)
     * [linux](knowledge/it/linux.md)
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)

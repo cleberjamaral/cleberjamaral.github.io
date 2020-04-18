@@ -34,9 +34,3 @@ description: Deploying bootcamp sample application
 
 * Removing demo: `$ microk8s.kubectl delete deployment.apps/kubernetes-bootcamp`
 
-### Sources
-
-* [kubernetes-with-microk8s](https://ubuntu.com/tutorials/install-a-local-kubernetes-with-microk8s#4-accessing-the-kubernetes-and-grafana-dashboards)
-* [microk8s docs](https://microk8s.io/docs/)
-* [kubernetes bootcamp tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/) \([old version](https://kubernetesbootcamp.github.io/kubernetes-bootcamp/)\)
-
