@@ -18,8 +18,6 @@ description: Installing a kubernetes by microk8s
 
 * Proxy access to pods to debug them `$ microk8s.kubectl proxy`
 * From another terminal: `$ curl http://localhost:8001/version`
-* Set environment variable $POD\_NAME to make further commands easier `$ export POD_NAME=$(microk8s.kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')`
-  * If it does not work run `$ microk8s.kubectl get pods` copy the name of the pod and set the variable manually `$ export $POD_NAME=kubernetes-bootcamp-XXXXX`
 
 ### Grafana: Enabling, disabling and accessing
 
