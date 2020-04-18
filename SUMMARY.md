@@ -8,7 +8,7 @@
   * [mails and emails](self-management/mails-and-emails.md)
 * [knowledge](knowledge/README.md)
   * [it](knowledge/it/README.md)
-    * [containers](knowledge/it/containers/README.md)
+    * [containers and clusters](knowledge/it/containers/README.md)
       * [installing kubernetes](knowledge/it/containers/installing-kubernetes.md)
       * [deploying bootcamp](knowledge/it/containers/deploying-bootcamp.md)
     * [linux](knowledge/it/linux.md)

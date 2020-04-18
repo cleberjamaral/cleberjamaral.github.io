@@ -20,7 +20,6 @@ description: Installing a kubernetes by microk8s
 * From another terminal: `$ curl http://localhost:8001/version`
 * Set environment variable $POD\_NAME to make further commands easier `$ export POD_NAME=$(microk8s.kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')`
   * If it does not work run `$ microk8s.kubectl get pods` copy the name of the pod and set the variable manually `$ export $POD_NAME=kubernetes-bootcamp-XXXXX`
-* Get information from the created pod: `$ curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/`
 
 ### Grafana: Enabling, disabling and accessing
 
@@ -48,4 +47,5 @@ description: Installing a kubernetes by microk8s
 * [kubernetes-with-microk8s](https://ubuntu.com/tutorials/install-a-local-kubernetes-with-microk8s#4-accessing-the-kubernetes-and-grafana-dashboards)
 * [microk8s docs](https://microk8s.io/docs/)
 * [kubernetes bootcamp tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/) \([old version](https://kubernetesbootcamp.github.io/kubernetes-bootcamp/)\)
+* [installing kubernetes locally](https://kubernetes.io/blog/2019/11/26/running-kubernetes-locally-on-linux-with-microk8s/)
 
