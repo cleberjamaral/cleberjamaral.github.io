@@ -20,6 +20,10 @@ description: Deploying nginx sample application
 * Run terminal of the pod `$ microk8s.kubectl exec -ti $POD_NAME bash`
   * Type `exit` to leave the section
 
+### Troubleshooting
+
+* Describe pod `$ microk8s.kubectl describe $POD_NAME`
+
 ### Removing nginx deployment
 
 * Removing `$ microk8s.kubectl delete deployment.apps/nginx`

@@ -22,6 +22,10 @@ description: Deploying bootcamp sample application
 * Show a file content `# cat server.js`
   * Type `exit` to leave the section
 
+### Troubleshooting
+
+* Describe pod `$ microk8s.kubectl describe $POD_NAME`
+
 ### Exposing the deployment
 
 * Get current services `$ microk8s.kubectl get services`

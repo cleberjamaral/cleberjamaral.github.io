@@ -1,5 +1,10 @@
 # docker
 
+* Show docker images `$ sudo docker images`
+* Inspecting an image `$ sudo docker image inspect image_id`
+* Removing an image `$ sudo docker image rm image_id`
+  * To force removing associated container `$ sudo docker image rm image_id -f`
+
 ### Troubleshooting
 
 * Check docker service status `$ sudo service docker status` or `$ sudo journalctl -fu docker`
