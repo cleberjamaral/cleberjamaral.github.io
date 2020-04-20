@@ -14,7 +14,7 @@ description: Deploying a docker image from the hub
 ### Pulling an image from a docker repository and running the terminal
 
 * Pulling an image from dockerhub `$ sudo docker pull user/repository:tag`
-  * Assuming there is an image at following docker hub address [https://hub.docker.com/repository/docker/cleberjamaral/jacamo-rest-run](https://hub.docker.com/repository/docker/cleberjamaral/jacamo-rest-run) 
+  * Assuming there is an image at the following docker hub address [https://hub.docker.com/repository/docker/cleberjamaral/jacamo-rest-run](https://hub.docker.com/repository/docker/cleberjamaral/jacamo-rest-run) 
 
     `$ docker pull cleberjamaral/jacamo-rest-run:latest`
 * Running an instance and opening the terminal `$ docker run -ti repository_id sh`
