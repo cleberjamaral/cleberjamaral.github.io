@@ -11,6 +11,7 @@
     * [containers](knowledge/it/containers-1/README.md)
       * [installing docker](knowledge/it/containers-1/installing-docker.md)
       * [deploying busybox](knowledge/it/containers-1/docker.md)
+      * [deploying a sample](knowledge/it/containers-1/deploying-a-sample.md)
       * [deploying from the hub](knowledge/it/containers-1/deploying-from-the-hub.md)
     * [clusters](knowledge/it/containers/README.md)
       * [installing kubernetes](knowledge/it/containers/installing-kubernetes.md)
