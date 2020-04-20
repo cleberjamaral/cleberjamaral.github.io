@@ -14,7 +14,7 @@ Following [docker-curriculum](https://docker-curriculum.com/) tutorial and a web
 
 ### Giving a name to the container
 
-* Running detached giving a name  `$ docker run -d --name static-site prakhar1989/static-site`
+* Running detached giving a name `$ docker run -d --name static-site prakhar1989/static-site`
 
 ### Exposing ports
 

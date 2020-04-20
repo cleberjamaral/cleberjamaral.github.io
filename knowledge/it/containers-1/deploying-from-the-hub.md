@@ -8,15 +8,15 @@ Examples assume there is an image at the following docker hub address [https://h
 
 ### Creating and running an image
 
-* Building an image with a tag `$ sudo docker build -t user/image_id .`
+* Building and assigning the tag `user/image_id`to the local image `$ sudo docker build -t user/image_id .`
 * Check existing images `$ sudo docker images`
 * Create a network `$ sudo docker network create network_name`
-* Run a docker image `$ sudo docker run -ti --rm --net network_name --name host1 -v "$(pwd)":/a_folder user/image_id a_command`
-  * Assuming 
+* Run a docker image `$ sudo docker run -ti user/image_id a_command`
+  * Example `$ docker run -d -P -p 8888:8080 -ti cleberjamaral/jacamo-rest-run sh` 
 
 ### Pulling an image from a docker repository and running the terminal
 
-* Pulling an image from dockerhub `$ sudo docker pull user/image_id:tag`
+* Pulling an image from docker hub `$ sudo docker pull user/image_id:tag`
   * Example `$ docker pull cleberjamaral/jacamo-rest-run:latest`
 * Running an instance and opening the terminal `$ docker run -ti repository_id sh`
   * Example `$ docker run -ti cleberjamaral/jacamo-rest-run sh`
