@@ -1,24 +1,22 @@
 ---
-description: Deploying docker containers
+description: Deploying busybox sample docker container
 ---
 
-# deploying containers
+# deploying busybox
 
-### Creating and running an image
+### Pulling and running busybox image
 
-* Building an image with a tag `$ sudo docker build -t a_tag .`
-* Check existing images `$ sudo docker images`
-* Create a network `$ sudo docker network create network_name`
-* Run a docker image `$ sudo docker run -ti --rm --net network_name --name host1 -v "$(pwd)":/a_folder a_repository a_command`
+* Pulling the image `$ docker pull busybox`
+* Executing a simple command on busybox `$ docker run busybox echo "hello from busybox"`
 
-### Pulling an image from a docker repository
+### Running terminal on busybox
 
-* Pulling an image from dockerhub `$ sudo docker pull user/repository:tag`
+* Open terminal on busybox `$ docker run -it busybox sh`
 
-### Removing an image
+### Deleting all exited containers
 
-* Removing an image `$ sudo docker image rm image_id`
-  * To force removing associated container `$ sudo docker image rm image_id -f`
+* List last commands that ran recently`$ docker ps -a`
+* Deleting stopped containers `$ docker container prune` or  `$ docker rm $(docker ps -a -q -f status=exited)`
 
 ### 
 
