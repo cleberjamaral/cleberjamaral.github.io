@@ -18,7 +18,7 @@ description: Deploying bootcamp sample application
 
     `$ curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/`
 * Get environment variables `$ microk8s.kubectl exec $POD_NAME -- env`
-* Run terminal of the pod `$ microk8s.kubectl exec -ti $POD_NAME bash`
+* Run terminal of the pod `$ microk8s.kubectl exec -ti $POD_NAME -- bash`
 * Show a file content `# cat server.js`
   * Type `exit` to leave the section
 

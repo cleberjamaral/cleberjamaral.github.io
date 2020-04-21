@@ -17,6 +17,7 @@
       * [installing kubernetes](knowledge/it/containers/installing-kubernetes.md)
       * [deploying bootcamp](knowledge/it/containers/deploying-bootcamp.md)
       * [deploying nginx](knowledge/it/containers/deploying-nginx.md)
+      * [deploying jacamo-rest](knowledge/it/containers/deploying-jacamo-rest.md)
       * [grafana](knowledge/it/containers/grafana.md)
     * [linux](knowledge/it/linux.md)
   * [language](knowledge/language.md)

@@ -22,7 +22,7 @@ description: Deploying nginx sample application
 
 ### Troubleshooting
 
-* Describe pod `$ microk8s.kubectl describe $POD_NAME`
+* Describe pod `$ microk8s.kubectl describe pod/$POD_NAME`
 
 ### Removing nginx deployment
 
