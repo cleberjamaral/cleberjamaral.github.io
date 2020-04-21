@@ -14,5 +14,5 @@ I try to follow my [editing checklist](https://gist.github.com/cleberjamaral/624
 * [a good example on how to organise and expose ideas is Joost van Oijen thesis](https://www.researchgate.net/publication/282702142_Cognitive_Agents_in_Virtual_Worlds_A_Middleware_Design_Approach)
 * [article "57+ Content Tools, Tips, and Examples to Make Your Writing Better" written by Mike Murray](https://contentmarketinginstitute.com/2019/03/content-writing-examples-tools-tips/) 
 * [greek alphabet](https://www.rapidtables.com/math/symbols/greek_alphabet.html)
-* [plagiarism search](https://plagiarismsearch.com/)
+* [plagiarism search](https://plagiarismsearch.com/) and [turnitin](https://www.turnitin.com/)
 

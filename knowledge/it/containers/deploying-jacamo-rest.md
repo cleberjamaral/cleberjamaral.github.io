@@ -21,5 +21,5 @@ Deploying `cleberjamaral/jacamo-rest-run` which is available in [docker hub](htt
 
 ### Opening terminal
 
-* Open terminal `$ microk8s.kubectl exec -ti $POD_NAME bash`
+* Open terminal `$ microk8s.kubectl exec -ti $POD_NAME -- bash`
 
