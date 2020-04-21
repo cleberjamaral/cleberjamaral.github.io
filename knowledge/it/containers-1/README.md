@@ -1,6 +1,10 @@
+---
+description: Putting apps in containers
+---
+
 # containers
 
-
+Containers is a solution for process isolation needing low computing power if compared to Virtual Machines \(VMs\).
 
 ### Sources
 
