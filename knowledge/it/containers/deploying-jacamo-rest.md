@@ -15,9 +15,9 @@ Deploying `cleberjamaral/jacamo-rest-run` which is available in [docker hub](htt
 
 ### Forwarding connections
 
-In [theory](https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/), is seems a port forward of host to the service/deployment/pod should be a good solution but in the first tests it is not working yet. I have tried `$ kubectl port-forward deployment.apps/jacamo-rest 8080:8080` 
-
-However, what is working is directy through socat `$ socat TCP-LISTEN:8080,fork,reuseaddr TCP:10.152.183.48:8080`
+* `port-forward` option needs [socat installed on the host](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward).
+* In [theory](https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/), is seems a port forward of host to the service/deployment/pod should be a good solution but in the first tests it is not working yet. I have tried `$ kubectl port-forward deployment.apps/jacamo-rest 8080:8080` 
+* However, what is working is directy through socat `$ socat TCP-LISTEN:8080,fork,reuseaddr TCP:10.152.183.48:8080`
 
 ### Opening terminal
 
