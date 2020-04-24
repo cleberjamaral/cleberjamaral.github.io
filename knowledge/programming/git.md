@@ -14,6 +14,7 @@ description: 'git stuffs [draft article]'
 * steps for [merging git branch into master](https://gist.github.com/cleberjamaral/94410e296e80aa66f0d38c88ca5234fe)
 * steps to [go to a specific commit and back to latest master](https://gist.github.com/cleberjamaral/59c7f5f9075d92f38bd59d6c51d36bd0)
 * [undoing local changes](https://gist.github.com/cleberjamaral/1548e52acb122a81874fec0f1dfafa36) like unstaging and undoing commit
+* steps for [updating a fork](https://gist.github.com/cleberjamaral/0d025cc52e0785fd2436c56881918b80) for latest upstream
 
 ## git as a maven repository
 
