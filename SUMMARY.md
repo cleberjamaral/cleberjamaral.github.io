@@ -23,6 +23,7 @@
   * [language](knowledge/language.md)
   * [productivity](knowledge/productivity.md)
   * [programming](knowledge/programming/README.md)
+    * [REST](knowledge/programming/rest.md)
     * [eclipse](knowledge/programming/eclipse.md)
     * [C/C++](knowledge/programming/c-c++.md)
     * [java](knowledge/programming/java.md)
