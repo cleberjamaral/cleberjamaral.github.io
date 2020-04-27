@@ -2,8 +2,7 @@
 
 ### Open APIs 
 
-* How many astronauts are in space right now? What are the names of those astronauts?
-  * [astros](http://api.open-notify.org/astros.json) 
+* How many astronauts are in space right now? What are the names of those astronauts? on [Astros](http://api.open-notify.org/astros.json) 
 
 ### Good references
 
