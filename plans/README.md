@@ -4,7 +4,7 @@ I use [github projects](https://github.com/users/cleberjamaral/projects/) to man
 
 ## Things I would like to do
 
-* I plan so finally develop my personal [assistant](personal-assistant.md) using natural language processing \(npl\). I am planning to work with npl some day. We had lots of efforts and good advance in language processing but it is, in my opinion, still not convenient for use on day-by-day.
+* I plan so finally develop my personal [assistant](personal-assistant.md) using [speech recognition](../knowledge/research/speech-recognition.md). The software industry is putting lots of efforts and has accomplished good advance in language processing but it is, in my opinion, still not convenient for day-by-day use.
 * It looks old-fashioned but I still think I have to writing my experience with JAX-RS. This [article](https://javapapers.com/java/restful-web-services-with-java-jax-rs-using-jersey/) shows some very basic steps which is good to follow.
 * Learn about quantum computing: [video](https://www.youtube.com/watch?feature=youtu.be&v=JRIPV0dPAd4).
 * Learn React: [chat](https://medium.com/@jasofalcon/simple-chat-react-java-6923b54d65a0), [video tutorial](https://www.youtube.com/watch?v=hzLDsxPGctY).

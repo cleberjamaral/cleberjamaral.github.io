@@ -37,6 +37,7 @@
     * [mas](knowledge/research/mas.md)
     * [nlp](knowledge/research/nlp.md)
     * [planning](knowledge/research/planning.md)
+    * [speech recognition](knowledge/research/speech-recognition.md)
   * [writing](knowledge/writing/README.md)
     * [scientific](knowledge/writing/journal-management.md)
     * [latex](knowledge/writing/latex.md)
