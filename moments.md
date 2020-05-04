@@ -1,13 +1,14 @@
 ---
-description: Things I have seen
+description: things I have seen and done
 ---
 
 # moments
 
-I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) account in which I rarely post something, but I try to keep the profile updated. I also have a [facebook](https://www.facebook.com/) and [twitter](https://twitter.com/cleberjamaral) account where I don't use to post very often and I use to remove my old posts \(which is probably ineffective against [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica), [Clearview](https://edition.cnn.com/2020/02/10/tech/clearview-ai-ceo-hoan-ton-that/index.html) and similar\). I use [google photos](https://photos.google.com/) to store my private digital albums.
+I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) account in which I rarely post something, but I try to keep the profile updated. I also have a [facebook](https://www.facebook.com/) and [twitter](https://twitter.com/cleberjamaral) account where I don't post very often and usually I remove my old posts \(which is probably ineffective against [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica), [Clearview](https://edition.cnn.com/2020/02/10/tech/clearview-ai-ceo-hoan-ton-that/index.html) and similar\). I use [google photos](https://photos.google.com/) to store my private digital albums.
 
 ## Recent activities
 
+* 04/2020: A speech on NZDIS about [Collaborative and Interactive programming for Multi-Agent Systems](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1425986) \([PDF](https://people.cs.umu.se/tkampik/Collaborative_and_Interactive_Agent_oriented_Developer_Operations.pdf)\)
 * 02/2020: I have talked about my experience on [catching-up web technologies](https://www.slideshare.net/clebercbr/catchingup-web-technologies-an-endless-story).
 * 12/2019: I have presented my latest thoughts and my open issues about Organization Design.
 * 10/2019: [I have exposed my Doctoral proposal ](https://www.linkedin.com/posts/cleber-jorge-amaral-77827a10_doutorado-qualificado-com-sucesso-supervisionado-activity-6571903577474822144-N-av)at the University of Otago.

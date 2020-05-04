@@ -2,7 +2,7 @@
 description: This is an attempt to structure my memory
 ---
 
-# Cleber's mind
+# cleber's mind
 
 ### What is on
 
