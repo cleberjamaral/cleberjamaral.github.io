@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Cleber's mind](README.md)
+* [cleber's mind](README.md)
 * [plans](plans/README.md)
   * [personal assistant](plans/personal-assistant.md)
 * [self-management](self-management/README.md)
@@ -54,7 +54,7 @@
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
 * [moments](moments.md)
-* [Brasil](brasil.md)
+* [brasil](brasil.md)
 
 ## external links
 
