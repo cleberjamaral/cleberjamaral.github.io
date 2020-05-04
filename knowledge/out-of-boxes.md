@@ -14,7 +14,3 @@ tmux
 
 * [How to use tmux](https://gist.github.com/cleberjamaral/5ac549e099a3f5de947c0064a2a30450)
 
-rest
-
-* [RESTful HTTP in practice](https://www.infoq.com/articles/designing-restful-http-apps-roth/)
-
