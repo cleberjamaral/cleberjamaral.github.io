@@ -4,11 +4,11 @@ description: This is an attempt to structure my memory
 
 # cleber's mind
 
-### What is on
+## What is on
 
 This is an ongoing book. Currently, I am using that as my notebook. I am often a hoarder and the best way to prevent productivity loss and avoid burnout is to put everything that is in my mind "on the paper" so I can decide what is garbage to throw them away.
 
-#### Current Projects
+### Current Projects
 
 My main focus is on my doctoral project, [GoOrg](https://github.com/cleberjamaral/autoOrgDesignProject) an automated method for generating organisations.
 
@@ -18,7 +18,7 @@ I am going to present the demo paper of "A Framework for Collaborative and Inter
 
 I have other studies that are under revision which titles are: "Agent Programming for Industrial Applications: Some Advantages and Drawbacks" and "Towards Jacamo-rest: Multi-Agent Systems from the Perspective of Resource-Oriented Architecture".
 
-### About this book
+## About this book
 
 Like everyone, I often forget things and often I remember things that I prefer to forget. This repository contains what I would like to keep in memory. In a way it is summarising knowledge which is a [good way to memorise things](https://www.inc.com/jeff-haden/how-to-remember-anything-you-really-want-to-remember-backed-by-science.html). In this sense, it is an idealisation where I can keep [useful information](knowledge/), nice [moments](moments.md) and write down the reasoning rules I would like to follow.
 

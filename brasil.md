@@ -11,5 +11,3 @@ Há tempos tenho guardado os planos de governo de municípios da região, estado
 * [Plano de governo de Jair Bolsonaro - 2018](https://github.com/cleberjamaral/cleberjamaral.github.io/blob/master/files/PLANO_DE_GOVERNO_JAIR_BOLSONARO_2018.pdf)
 * [O que Jacinda Ardern tem para ensinar a Jair Bolsonaro](https://medium.com/me/stories/)
 
-
-
