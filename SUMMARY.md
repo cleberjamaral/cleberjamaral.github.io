@@ -47,7 +47,6 @@
   * [sailing](knowledge/sailing.md)
   * [financial](knowledge/financial/README.md)
     * [assets](knowledge/financial/assets.md)
-    * [information sources](knowledge/financial/information-sources.md)
   * [emergency](knowledge/emergency.md)
   * [out of boxes](knowledge/out-of-boxes.md)
 * [teaching](teaching/README.md)
