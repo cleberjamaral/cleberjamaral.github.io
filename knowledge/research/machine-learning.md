@@ -24,7 +24,7 @@ It is not too different from the example of pigs and dogs, we just have a larger
 
 ### Diving deeper on data science
 
-The [final notebook](https://colab.research.google.com/github/cleberjamaral/cleberjamaral.github.io/blob/master/knowledge/research/machine-learning/4-data-visualization.ipynb) of this series is about data visualization, discipline created by [John Tukey](https://en.wikipedia.org/wiki/John_Tukey).
+The [final notebook](https://colab.research.google.com/github/cleberjamaral/cleberjamaral.github.io/blob/master/knowledge/research/machine-learning/4-data-visualization.ipynb) of this series is about data visualization.
 
 This [list of exercises](https://github.com/cleberjamaral/EstatisticaTYU/tree/master/Python_Lista2) shows a more comprehensive example. It regards to a dataset of a survey done with students of a hypothetical University. The resolution using [python](https://github.com/cleberjamaral/EstatisticaTYU/tree/master/Python_Lista2) and [R](https://github.com/cleberjamaral/EstatisticaTYU/tree/master/R) is available. [Another list](https://github.com/cleberjamaral/EstatisticaTYU/tree/master/Python_Lista3) has more data exploitation. 
 
