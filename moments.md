@@ -8,6 +8,7 @@ I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) acc
 
 ## Recent activities
 
+* 05/2020: I have made [this covid-19 analysis](https://colab.research.google.com/github/cleberjamaral/cleberjamaral.github.io/blob/master/knowledge/research/machine-learning/brazil-states-trajectories-and-deaths.ipynb) about trajectory of cases and deaths in Brazilian states
 * 04/2020: A speech on NZDIS about [Collaborative and Interactive programming for Multi-Agent Systems](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1425986) \([PDF](https://people.cs.umu.se/tkampik/Collaborative_and_Interactive_Agent_oriented_Developer_Operations.pdf)\)
 * 02/2020: I have talked about my experience on [catching-up web technologies](https://www.slideshare.net/clebercbr/catchingup-web-technologies-an-endless-story).
 * 12/2019: I have presented my latest thoughts and my open issues about Organization Design.
