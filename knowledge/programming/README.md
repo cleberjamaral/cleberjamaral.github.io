@@ -6,6 +6,16 @@ description: programming stuffs
 
 This section is about programming. Most of the subsections are detailing programming languages that I have used.
 
+### Navigating
+
+* [C/C++](c-c++.md) programming languages information
+* [eclipse](eclipse.md) IDE shortcuts and tips
+* [java](java/) programming language
+* [javascript](javascript.md) programming language
+* [prolog](prolog.md) and prolog-like laguages
+* [REST](rest.md) integration architecture
+* [version control](git.md) systems
+
 ### Learning programming
 
 * For the first steps and children it is great to try [code.org](https://code.org/) and [scratch](https://scratch.mit.edu/).
