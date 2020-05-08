@@ -22,3 +22,7 @@ Selecting from alternatives:
 
 `$ sudo update-alternatives --config python3`
 
+### tmux
+
+* [How to use tmux](https://gist.github.com/cleberjamaral/5ac549e099a3f5de947c0064a2a30450)
+
