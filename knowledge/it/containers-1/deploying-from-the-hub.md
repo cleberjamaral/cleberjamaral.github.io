@@ -16,8 +16,6 @@ Examples assume there is an image at the following docker hub address [https://h
 * Run a docker image `$ sudo docker run -ti user/image_id a_command`
   * Example `$ docker run -d -P -p 8888:8080 -ti cleberjamaral/jacamo-rest-run sh` 
 
-\`\`
-
 ### Pulling an image from a docker repository and running the terminal
 
 * Pulling an image from docker hub `$ sudo docker pull user/image_id:tag`
