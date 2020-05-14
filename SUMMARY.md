@@ -10,6 +10,7 @@
   * [programming](knowledge/programming/README.md)
     * [C/C++](knowledge/programming/c-c++.md)
     * [eclipse](knowledge/programming/eclipse.md)
+    * [gradle](knowledge/programming/gradle.md)
     * [java](knowledge/programming/java/README.md)
       * [apache camel](knowledge/programming/java/apache-camel.md)
     * [javascript](knowledge/programming/javascript.md)
