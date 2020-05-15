@@ -14,3 +14,7 @@ description: gradle notes
 * Some cache can be old and unnecessary, in an extreme mode all cached data can be removed:`$ rm -rf $HOME/.gradle/caches/`
 * Removing files not accessed for more than 30 days and the empty folders after that: `$ find ~/.gradle/caches -type f -atime +30 -delete $ find ~/.gradle -type d -mindepth 1 -empty -delete`
 
+### Do not execute a subtask
+
+* For instance, do not execute test when performing build`$ ./gradlew build -x test` 
+
