@@ -7,7 +7,7 @@ description: financial stuffs
 ### Navigating
 
 * [assets](assets.md) shows the ones that I use to follow
-* it is also related to [data visualization ](../data-visualisation.md)
+* it is also related to [data visualization ](../research/data-visualisation.md)
 
 ### Research
 
