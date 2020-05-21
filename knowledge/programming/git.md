@@ -15,6 +15,8 @@ description: 'git stuffs [draft article]'
 * steps to [go to a specific commit and back to latest master](https://gist.github.com/cleberjamaral/59c7f5f9075d92f38bd59d6c51d36bd0)
 * [undoing local changes](https://gist.github.com/cleberjamaral/1548e52acb122a81874fec0f1dfafa36) like unstaging and undoing commit
 * steps for [updating a fork](https://gist.github.com/cleberjamaral/0d025cc52e0785fd2436c56881918b80) for latest upstream
+* Creating a tag: `$ git tag -a vX.Y -m "message"`
+* Pushing a tag: `$ git push origin vX.Y`
 
 ## git as a maven repository
 
