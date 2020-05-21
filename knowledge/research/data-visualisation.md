@@ -2,6 +2,14 @@
 
 Data visualization is a discipline created by [John Tukey](https://en.wikipedia.org/wiki/John_Tukey).
 
+### Principles
+
+* **Choose the right chart:** For instance, bar are good to show frequencies, absolute quantities. Lines are good to show variations over time, it can also show relative quantities, as a zoom to highlight some difference.
+* **Avoid misunderstanding:** For instance, the bar must be proportional to what it represents.
+* **Choose the right colour scheme:** if colours are showing important differences, so they must be easily differentiated. It is also good to avoid too much
+* **Remove unnecessary information:** avoid any label and extra data. Less is more!
+* **Have in mind the story the chart is supposed to tell:** at the end, it is expected to tell some story giving to the user some information. It is important to make sure the chart is delivering it.
+
 ### Navigating
 
 * This topic is related to many disciplines among them: [machine learning](machine-learning.md), [writing](../language/writing.md) and [math](math.md).
