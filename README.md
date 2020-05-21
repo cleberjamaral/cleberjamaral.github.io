@@ -14,8 +14,6 @@ My main focus is on my doctoral project, [GoOrg](https://github.com/cleberjamara
 
 Secondly, I am always improving [jacamo-rest](https://github.com/jacamo-lang/jacamo-rest) and [jacamo-web](https://github.com/jacamo-lang/jacamo-web) projects.
 
-I am going to present the demo paper of "A Framework for Collaborative and Interactive Agent-oriented Developer Operations" in [AAMAS 2020](https://aamas2020.conference.auckland.ac.nz/) which is based on "Agent DevOps", a study that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner.
-
 I have other studies that are under revision which titles are: "Agent Programming for Industrial Applications: Some Advantages and Drawbacks" and "Towards Jacamo-rest: Multi-Agent Systems from the Perspective of Resource-Oriented Architecture".
 
 ## About this book
