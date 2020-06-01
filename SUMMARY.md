@@ -15,6 +15,7 @@
       * [apache camel](knowledge/programming/java/apache-camel.md)
     * [javascript](knowledge/programming/javascript.md)
     * [prolog](knowledge/programming/prolog.md)
+    * [regex](knowledge/programming/regex.md)
     * [REST](knowledge/programming/rest.md)
     * [version control](knowledge/programming/git.md)
   * [research](knowledge/research/README.md)
