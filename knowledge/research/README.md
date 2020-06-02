@@ -3,9 +3,9 @@
 ### Research groups:
 
 * [CSI](http://dgp.cnpq.br/dgp/espelhogrupo/17293): Control and Intelligent Supervision - IFSC
-* [GPDST](http://dgp.cnpq.br/dgp/espelhogrupo/2924804687700988): Research and Development Group in Telecommunication Systems - IFSC
-* [SMA-DAS](https://groups.google.com/forum/#!forum/sma-das): Multi-Agent Systems - Automation and Systems - UFSC.
-* [NZDIS](http://nzdis.otago.ac.nz/): The New Zealand Distributed Information Systems research project - University of Otago.
+* [GPA](http://dgp.cnpq.br/dgp/espelhogrupo/4711839036348216): Research Group in Automation and Systems - UFSC
+* [SMA-DAS](https://groups.google.com/forum/#!forum/sma-das): Multi-Agent Systems - Automation and Systems - UFSC
+* [NZDIS](http://nzdis.otago.ac.nz/): The New Zealand Distributed Information Systems research project - University of Otago
 
 ### Navigating
 
