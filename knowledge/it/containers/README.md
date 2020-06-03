@@ -16,4 +16,5 @@ Here I have some note about how to install microk8s, a solution for deploying a 
 * [microk8s docs](https://microk8s.io/docs/)
 * [kubernetes bootcamp tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/) \([old version](https://kubernetesbootcamp.github.io/kubernetes-bootcamp/)\)
 * [installing kubernetes locally](https://kubernetes.io/blog/2019/11/26/running-kubernetes-locally-on-linux-with-microk8s/)
+* [Java/Cloud: How to Quickly Create a Kubernetes-Ready REST Microservice](https://dzone.com/articles/javacloud-how-to-quickly-create-a-kubernetes-ready)
 
