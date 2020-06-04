@@ -8,6 +8,7 @@ I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) acc
 
 ## Recent activities
 
+* 06/2020: I have presented [2020' Multi-Agent Programming Contest](https://www.slideshare.net/clebercbr/ai-for-multiagent-programming-contest-2020) at NZDIS Research Group to discuss possible Artificial Intelligence techniques that can be applied in the competition.
 * 05/2020: I have presented the demo paper of "A Framework for Collaborative and Interactive Agent-oriented Developer Operations" in [AAMAS 2020](https://aamas2020.conference.auckland.ac.nz/) which is based on "Agent DevOps", a study that proposes an architecture and software life cycle for designing and managing agents in a DevOps-like manner \([video](https://underline.io/lecture/124-a-framework-for-collaborative-and-interactive-agent-oriented-developer-operations) / [paper](http://ifaamas.org/Proceedings/aamas2020/pdfs/p2092.pdf)\)
 * 05/2020: After going to level 2 and getting back to the office in the University of Otago I have presented by zoom a talk mainly about the importance of [Multi-Agent Oriented Programming paradigm](https://www.slideshare.net/clebercbr/csis-meetingjacamoweb-for-collaborative-and-interactive-programming) using Jacamo-web collaborative and interactive facilities as example.
 * 05/2020: I have made [this covid-19 analysis](https://colab.research.google.com/github/cleberjamaral/cleberjamaral.github.io/blob/master/knowledge/research/machine-learning/brazil-states-trajectories-and-deaths.ipynb) about trajectory of cases and deaths in Brazilian states
