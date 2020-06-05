@@ -9,6 +9,11 @@
 ### Testing docker
 
 * Run hello-world application `$ sudo docker run hello-world`
+* Docker version `$ docker version`
+* Docker system's general information `$ docker info`
+* Docker list of running containers `$ docker ps`
+  * Status of running containers `$ docker stats`
+* Docker list of all containers `$ docker ps -a`
 
 ### Troubleshooting
 
@@ -16,6 +21,7 @@
 * Check if docker container daemon is running `$ ps -ax | grep docker`
 * Show docker images `$ sudo docker images`
 * Inspecting an image `$ sudo docker image inspect image_id`
+* a more extreme action can be `$ sudo rm -rf /var/lib/docker`
 
 ### Starting, restarting and stopping docker
 
