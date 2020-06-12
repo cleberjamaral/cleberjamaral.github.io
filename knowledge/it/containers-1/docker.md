@@ -12,7 +12,7 @@ description: Deploying busybox sample docker container
 
 ### Running terminal on busybox
 
-* Open terminal on busybox `$ docker run -it busybox sh`
+* Open terminal on busybox `$ docker exec -it busybox sh`
 
 ### Deleting all stopped containers
 
