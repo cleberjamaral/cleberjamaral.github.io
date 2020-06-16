@@ -14,7 +14,7 @@ This section is about programming. Most of the subsections are detailing program
 * [javascript](javascript.md) programming language
 * [prolog](prolog.md) and prolog-like laguages
 * [REST](rest.md) integration architecture
-* [version control](git.md) systems
+* [version control](git/) systems
 
 ### Learning programming
 
