@@ -6,6 +6,12 @@
 * Undoing a git reset `git reset 'HEAD@{1}'`
 * Undoing a git commit `git reset HEAD^`
 
+### **stash and pop**
+
+* For stashing current changes `$ git stash`
+* To show what is stashed `$ git stash list` and `$ git stash show`
+* For popping out the last stashed changes `$ git stash apply`
+
 ### **adding main repo as upstream**
 
 1. Make sure upstream is not configured yet `$ git remote -v`
