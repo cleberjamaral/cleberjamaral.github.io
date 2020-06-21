@@ -28,7 +28,7 @@
 ### managing tags
 
 * Creating a tag: `$ git tag -a vX.Y -m "message"`
-* Pushing a tag: `$ git push origin vX.Y`
+* Pushing a tag: `$ git push origin vX.Y` or `$ git push origin --tags`
 
 ### go to a specific commit and back to latest master
 
