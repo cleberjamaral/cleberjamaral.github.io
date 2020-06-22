@@ -41,6 +41,8 @@
       * [deploying nginx](knowledge/it/containers/deploying-nginx.md)
       * [deploying jacamo-rest](knowledge/it/containers/deploying-jacamo-rest.md)
       * [grafana](knowledge/it/containers/grafana.md)
+    * [deploy](knowledge/it/deploy/README.md)
+      * [heroku](knowledge/it/deploy/heroku.md)
     * [linux](knowledge/it/linux/README.md)
       * [startup](knowledge/it/linux/startup.md)
   * [productivity](knowledge/productivity.md)

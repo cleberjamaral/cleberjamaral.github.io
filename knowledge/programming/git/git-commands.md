@@ -1,6 +1,6 @@
 # git commands
 
-## undoing local changes
+### undoing local changes
 
 * Undoing git add / Unstaging changes `git reset`
 * Undoing a git reset `git reset 'HEAD@{1}'`
