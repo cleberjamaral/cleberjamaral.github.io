@@ -2,6 +2,7 @@
 
 ### undoing local changes
 
+* Checking what was committed `git show $COMMIT`
 * Undoing git add / Unstaging changes `git reset`
 * Undoing a git reset `git reset 'HEAD@{1}'`
 * Undoing a git commit `git reset HEAD^`
