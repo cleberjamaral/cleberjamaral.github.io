@@ -59,7 +59,8 @@
 * [teaching](teaching/README.md)
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
-* [moments](moments.md)
+* [moments](moments/README.md)
+  * [previous activities](moments/previous-activities.md)
 * [brasil](brasil.md)
 
 ## external links

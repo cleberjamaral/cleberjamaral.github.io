@@ -16,7 +16,7 @@ Secondly, I am always improving [jacamo-rest](https://github.com/jacamo-lang/jac
 
 ## About this book
 
-Like everyone, I often forget things and often I remember things that I prefer to forget. This repository contains what I would like to keep in memory. In a way it is summarising knowledge which is a [good way to memorise things](https://www.inc.com/jeff-haden/how-to-remember-anything-you-really-want-to-remember-backed-by-science.html). In this sense, it is an idealisation where I can keep [useful information](knowledge/), nice [moments](moments.md) and write down the reasoning rules I would like to follow.
+Like everyone, I often forget things and often I remember things that I prefer to forget. This repository contains what I would like to keep in memory. In a way it is summarising knowledge which is a [good way to memorise things](https://www.inc.com/jeff-haden/how-to-remember-anything-you-really-want-to-remember-backed-by-science.html). In this sense, it is an idealisation where I can keep [useful information](knowledge/), nice [moments](moments/) and write down the reasoning rules I would like to follow.
 
 It is pretty much inspired in [Nikita's knowledge book](https://github.com/nikitavoloboev/knowledge) which was the first I found that is doing something that I was looking for.
 

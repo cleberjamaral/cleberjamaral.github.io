@@ -1,0 +1,6 @@
+# previous activities
+
+* 06/2019: I have presented [my doctoral project](https://www.slideshare.net/clebercbr/doctoral-proposal-from-goals-to-organisations-automated-organisation-generator-for-mas) and a research regarding interoperabiliby in the Industry 4.0 context [PAAMS](https://www.paams.net/) conference.
+* 05/2019: I have presented mu doctoral proposal [GoOrg: Automated Organisational Chart Design for Open Multi-Agent Systems](https://link.springer.com/chapter/10.1007/978-3-030-24299-2_28) is an automated organisation generator for open Multi Agent System \([slides](https://www.slideshare.net/clebercbr/doctoral-proposal-from-goals-to-organisations-automated-organisation-generator-for-mas)\) and [Jacamo-web is on the fly: an interactive Multi-Agent System IDE](http://cgi.csc.liv.ac.uk/~lad/emas2019/accepted/EMAS2019_paper_8.pdf) an interactive programming IDE to develop Multi-Agent Systems \([slides](https://www.slideshare.net/clebercbr/jacamo-web-is-on-the-fly-an-interactive-multiagent-systems-programming-environment)\) in [EMAS](http://aamas2019.encs.concordia.ca/) workshop.
+* 05/2019: [Finding new routes for integrating Multi-Agent Systems using Apache Camel](https://arxiv.org/abs/1905.10490) a tool to afford the interaction with external entities as agents and artifacts has been presented at [WESAAC 2019](https://gsigma.ufsc.br/wesaac2019/).
+
