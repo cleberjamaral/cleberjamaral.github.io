@@ -2,10 +2,16 @@
 
 ### undoing local changes
 
-* Checking what was committed `git show $COMMIT`
-* Undoing git add / Unstaging changes `git reset`
-* Undoing a git reset `git reset 'HEAD@{1}'`
-* Undoing a git commit `git reset HEAD^`
+* Checking what was committed `$ git show $COMMIT`
+* Undoing git add / Unstaging changes `$ git reset`
+* Undoing a git reset `$ git reset 'HEAD@{1}'`
+* Undoing last git commit `$ git reset HEAD^`
+* Changing a specific git commit:
+  * Rebase to the specific commit `$ git rebase --interactive 'hash^'`
+  * Modify `pick` to `edit` in the line of the hash
+  * Do the change in the files
+  * Amend the changes `$ git commit --amend`
+  * Go back to the HEAD `$ git rebase --continue`
 
 ### **stash and pop**
 
