@@ -59,6 +59,13 @@ To exit from gnu prolog:
 `|?- assertz(bigger(giraffe,lion)).  
 |?- assertz(bigger(lion,turtle)).`
 
+### Appending elements to a list
+
+```text
+append_element([],E,[E]). 
+append_element([H|T],E,[H|L]) :- append_element(T,E,L).
+```
+
 ### To be continued...
 
 I am following the material from [http://www.cs.trincoll.edu/~ram/cpsc352/notes/](http://www.cs.trincoll.edu/~ram/cpsc352/notes/) which is very practical.
