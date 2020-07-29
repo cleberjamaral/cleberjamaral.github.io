@@ -104,5 +104,5 @@ SELECT * WHERE {
 ### Other topics
 
 * [Plugfest thingsweb API](http://plugfest.thingweb.io:8088/)
-* [wot-td-java](https://github.com/Interactions-HSG/wot-td-java/blob/feature/phantomx/samples/phantomXRobotArm.ttl)
+* [wot-td-java](https://github.com/Interactions-HSG/wot-td-java/blob/feature/phantomx/samples/phantomXRobotArm.ttl) visualizing [our data](http://www.visualdataweb.de/webvowl/#iri=https://ci.mines-stetienne.fr/kg2/itmfactory/xy10)
 
