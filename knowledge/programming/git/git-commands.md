@@ -44,3 +44,9 @@
 3. make sure the local is updated `git pull origin master`
 4. going back to master `git checkout master`
 
+### Permanently removing files from git
+
+* Removing file from all branches \(replace PATH/TO/FILENAME\): `$ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch PATH/TO/FILENAME' --prune-empty --tag-name-filter cat -- --all`
+* Remove old references `$ rm -rf .git/refs/original/`
+* Prune garbage `$ git reflog expire --expire=now --all && git gc --aggressive --prune=now`
+
