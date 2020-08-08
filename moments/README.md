@@ -8,6 +8,7 @@ I have a [linkedin](https://br.linkedin.com/in/cleber-jorge-amaral-77827a10) acc
 
 ## Recent activities
 
+* 08/2020: I have published on medium the story "[Achate a curva, Brasil!](https://medium.com/@cleberjamaral/achate-a-curva-brasil-c2e8214a0da0)" which brings some of my point of view comparing the way New Zealand and Brasil are reacting against COVID-19.
 * 07/2020: I have participate on [AI for Industry 4.0 Summer School](https://ai4industry.sciencesconf.org/) promoted by [École des Mines de Saint-Etienne](https://www.mines-stetienne.fr/) which also had a [hackathon](ai4industry-hackathon.md) in which the participants put their hands on a development of a system based in Multi-Agents to control the process of a hypothetical factory of yoghurt from filling yoghurt containers to packaging them.
 * 07/2020: Two studies were presented on [WESAAC 2020](http://dainf.pg.utfpr.edu.br/wesaac2020/accepted_papers.html): "[Agent Programming for Industrial Applications: Some Advantages and Drawbacks](https://arxiv.org/abs/2006.05613)" and "[Towards Jacamo-rest: Multi-Agent Systems from the Perspective of Resource-Oriented Architecture](https://arxiv.org/abs/2006.05619)".
 * 06/2020: I have presented [2020' Multi-Agent Programming Contest](https://www.slideshare.net/clebercbr/ai-for-multiagent-programming-contest-2020) at NZDIS Research Group to discuss possible Artificial Intelligence techniques that can be applied in the competition.
