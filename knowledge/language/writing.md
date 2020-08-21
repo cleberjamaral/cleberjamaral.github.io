@@ -6,7 +6,7 @@ description: 'Writing tips and support [draft articles]'
 
 I am really terrible when writing specially when I compare myself to other authors. It is not easy to me to use nice words in a fluent and not boring writing. On the search for improving so, I am trying to keep active on reading books and tips \[[1](https://www.theguardian.com/books/2015/oct/30/ten-things-i-learned-about-writing-from-stephen-king)\] \[[2](https://www.writingforward.com/creative-writing/creative-writing-process)\] about writing techniques. I am also starting to take notes when reading. Hopefully, some readings and notes can help me to write better.
 
-I try to follow my [editing checklist](https://gist.github.com/cleberjamaral/624b8cc7d051cb9ef750cc8760ed4ab1) to ensure I am not missing something important and I have a [collection of expressions](expressions.md) and [correlative conjunctions](https://gist.github.com/cleberjamaral/cac090a3c28b7844a75768d1ea8926bf) that are often useful.
+I try to follow my [editing checklist](https://gist.github.com/cleberjamaral/624b8cc7d051cb9ef750cc8760ed4ab1) to ensure I am not missing something important and I have a [collection of expressions](expressions/) and [correlative conjunctions](https://gist.github.com/cleberjamaral/cac090a3c28b7844a75768d1ea8926bf) that are often useful.
 
 ### Other resources:
 
