@@ -15,6 +15,12 @@
   * Status of running containers `$ docker stats`
 * Docker list of all containers `$ docker ps -a`
 
+### Docker useful commands \(run\)
+
+* Dettach terminal `-d`
+* Forward port `-p host_port:container_port` 
+* Set workdir `-w /path/to/app`
+
 ### Troubleshooting
 
 * Check docker service status `$ sudo service docker status` or `$ sudo journalctl -fu docker`
