@@ -49,6 +49,7 @@
   * [language](knowledge/language/README.md)
     * [expressions](knowledge/language/expressions/README.md)
       * [nice signposts](knowledge/language/expressions/nice-signposts.md)
+      * [linking expressions](knowledge/language/expressions/linking-expressions.md)
     * [latex](knowledge/language/latex.md)
     * [scientific](knowledge/language/journal-management.md)
     * [writing](knowledge/language/writing.md)
