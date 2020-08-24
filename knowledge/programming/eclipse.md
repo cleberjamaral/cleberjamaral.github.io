@@ -1,4 +1,16 @@
 # eclipse
 
-[My frequently used shortcuts in eclipse](https://gist.github.com/cleberjamaral/1049946bc9142283c5d66fa137505fa7)
+## Shortcuts
+
+### Alt+Shift+J or type /\*\* \[enter\] upper the method
+
+Add a Javadoc block comment to the field, method or class
+
+### Ctrl+Shift+F
+
+Format \(beautify\) the selected content or whole class
+
+### Ctrl+/
+
+Comment/uncomment the current line
 
