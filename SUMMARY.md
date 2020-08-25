@@ -17,6 +17,7 @@
     * [prolog](knowledge/programming/prolog.md)
     * [regex](knowledge/programming/regex.md)
     * [REST](knowledge/programming/rest.md)
+    * [naming convention](knowledge/programming/naming-convention.md)
     * [version control](knowledge/programming/git/README.md)
       * [git commands](knowledge/programming/git/git-commands.md)
   * [research](knowledge/research/README.md)
