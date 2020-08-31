@@ -28,4 +28,8 @@ description: Signpost of nice words and phrases
 * [conerstone](https://www.merriam-webster.com/dictionary/cornerstones): a basic element
 * [shed light on](https://www.powerthesaurus.org/shed_light_on): make clear
 * [recent years have witnessed](https://www.linguee.com/english-portuguese/search?query=recent+years+have+witnessed)
+* most notably
+* With the increase in prevalence
+* part of everyday life
+* a reasonable expectation
 

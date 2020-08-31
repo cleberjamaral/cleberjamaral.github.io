@@ -16,5 +16,17 @@ description: gradle notes
 
 ### Do not execute a subtask
 
-* For instance, do not execute test when performing build`$ ./gradlew build -x test` 
+* For instance, do not execute test when performing build`$ ./gradlew build -x test`
+
+### Force use of a local library \(usually a snapshot\)
+
+Let us say the dependency `'org.jacamo:jacamo-rest:0.5-SNAPSHOT'`  was just compiled locally and it is necessary to use it in some project. Two steps needed:
+
+1. Copy the local .jar file to some folder of the project \(e.g. lib/\)
+2. Add a local dependency besides the existing one, gradle will prefer to use the local one, eg:
+
+```text
+compile org.jacamo:jacamo-rest:0.5-SNAPSHOT'
+compile files('lib/jacamo-rest-0.5-SNAPSHOT.jar')
+```
 
