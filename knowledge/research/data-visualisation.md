@@ -12,7 +12,7 @@ Data visualization is a discipline created by [John Tukey](https://en.wikipedia.
 
 ### Navigating
 
-* This topic is related to many disciplines among them: [machine learning](machine-learning.md), [writing](../language/writing.md) and [math](math.md).
+* This topic is related to many disciplines among them: [machine learning](machine-learning.md), [writing](../language/writing.md) and [math](math/).
 
 ### Sources
 
