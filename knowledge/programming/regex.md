@@ -200,10 +200,10 @@ description: regular expressions
 
 ### Testers
 
-* [pythex](https://pythex.org/): a python regular expression composer
-* [debuggex](https://www.debuggex.com/): online regex tester for python and javascript
+* [pythex](https://pythex.org/): a python regular expression composer with a cheatsheet and multiline support.
+* [debuggex](https://www.debuggex.com/): online regex tester for python and javascript presents the expression in a graph way describying each part and multiline support.
 
 ### Source
 
-* [https://www.regular-expressions.info/](https://www.regular-expressions.info/)
+* [Regular-Expressions-info](https://www.regular-expressions.info/): brings a comprehensive documentation about regex.
 
