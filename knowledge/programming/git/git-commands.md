@@ -44,7 +44,12 @@
 3. make sure the local is updated `git pull origin master`
 4. going back to master `git checkout master`
 
-### Permanently removing files from git
+### cherry-picking - add a specific commit to another branch
+
+1. Checkout the branch in which the commit will be added \(eg.: master\): `$ git checkout master`
+2. Execute the cherry-pick `$ git cherry-pick <commit-hash>`
+
+### permanently removing files from git
 
 * Removing file from all branches \(replace PATH/TO/FILENAME\): `$ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch PATH/TO/FILENAME' --prune-empty --tag-name-filter cat -- --all`
 * Remove old references `$ rm -rf .git/refs/original/`
