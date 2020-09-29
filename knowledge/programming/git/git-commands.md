@@ -18,6 +18,7 @@
 * For stashing current changes `$ git stash`
 * To show what is stashed `$ git stash list` and `$ git stash show`
 * For popping out the last stashed changes `$ git stash apply`
+* Stash only un-staged changes `$ git stash save --keep-index`
 
 ### **adding main repo as upstream**
 
