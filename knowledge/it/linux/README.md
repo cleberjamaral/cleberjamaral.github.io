@@ -26,9 +26,13 @@ Selecting from alternatives:
 
 Creating: `$ ln -s FILE LINK`
 
-### Linux version
+### Hardware and software info
 
-To get the linux release details: `$ lsb_release -a`
+* To get the linux release details: `$ lsb_release -a`
+* Kernel, network and machine main info `$ uname -a`
+* List cpu info `$ lscpu`
+* Usb controllers info `$ lsusb`
+* File system info `$ sudo fdisk -l`
 
 ### tmux
 
