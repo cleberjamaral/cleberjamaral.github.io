@@ -31,6 +31,7 @@
     * [data sources](knowledge/research/data-sources.md)
     * [data visualisation](knowledge/research/data-visualisation.md)
   * [it](knowledge/it/README.md)
+    * [networks](knowledge/it/networks.md)
     * [containers](knowledge/it/containers-1/README.md)
       * [installing docker](knowledge/it/containers-1/installing-docker.md)
       * [deploying busybox](knowledge/it/containers-1/docker.md)
