@@ -1,5 +1,19 @@
 # networks
 
+### network configuration
+
+* using ip `$ ip a`
+* using ifconfig `$ ifconfig`
+* using nmcli \(networkmanager\) `$ nmcli device show`
+
+### Enable/disable interfaces
+
+* using ifdown e ifup \# `ifdown eth0 && ifup eth0`
+* using ip `# ip link set dev eth0 down && ip link set dev eth0 up`
+* using networking \(deprecated\) `# service networking restart`
+* using network restart `# /etc/init.d/network restart`
+* using ifconfig `# ifconfig eth0 down && ifconfig eth0 up`
+
 ### scan devices
 
 * using nmap `$ sudo nmap -sn 192.168.0.0/24`
