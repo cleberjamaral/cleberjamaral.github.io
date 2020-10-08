@@ -31,6 +31,7 @@ Creating: `$ ln -s FILE LINK`
 * To get the linux release details: `$ lsb_release -a`
 * Kernel, network and machine main info `$ uname -a`
 * List cpu info `$ lscpu`
+* Memory `$ free` or `$ cat /proc/meminfo`
 * Usb controllers info `$ lsusb`
 * File system info `$ sudo fdisk -l`
 
