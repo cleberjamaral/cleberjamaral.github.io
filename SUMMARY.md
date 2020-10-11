@@ -65,6 +65,7 @@
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
 * [moments](moments/README.md)
+  * [insightful ai facts](moments/insightful-ai-facts.md)
   * [ai4industry-hackathon](moments/ai4industry-hackathon.md)
   * [previous activities](moments/previous-activities.md)
 * [brasil](brasil.md)
