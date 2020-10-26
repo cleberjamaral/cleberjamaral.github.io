@@ -2,15 +2,6 @@
 
 [Create user on sudoers and add key on Linux](https://gist.github.com/cleberjamaral/3e4743abc3016d87e286876ec20ab050)
 
-### Compressing pdf
-
-1. Type the following command \([source](https://www.techwalla.com/articles/reduce-pdf-file-size-linux)\)`$ gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=setting -sOutputFile=output.pdf input.pdf`
-2. Set the input file name properly as well as the output file name if wanted.
-3. in -dPDFSETTINGS use:
-   * /screen for lowest quality
-   * /ebook for medium quality
-   * /printer and /prepress for high quality
-
 ### Setting alternatives
 
 For instance, for python3: 
