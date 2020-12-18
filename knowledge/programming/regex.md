@@ -4,7 +4,7 @@ description: regular expressions
 
 # regex
 
-### Metacharacters \(source [freeformatter.com](https://www.freeformatter.com/regex-tester.html)\)
+## Metacharacters \(source [freeformatter.com](https://www.freeformatter.com/regex-tester.html)\)
 
 <table>
   <thead>
@@ -175,12 +175,12 @@ description: regular expressions
     </tr>
     <tr>
       <td style="text-align:left">x(?!y)</td>
-      <td style="text-align:left">Matches &apos;x&apos; <b>only if &apos;x&apos; is NOT followed by &apos;y&apos;</b>.
+      <td style="text-align:left">Matches <b>&apos;x&apos; only if &apos;x&apos; is NOT followed by &apos;y&apos;</b>.
         Also known as a negative lookahead.</td>
     </tr>
     <tr>
       <td style="text-align:left">x(?=y)</td>
-      <td style="text-align:left">Matches &apos;x&apos; <b>only if &apos;x&apos; is followed by &apos;y&apos;</b>.
+      <td style="text-align:left">Matches <b>&apos;x&apos; only if &apos;x&apos; is followed by &apos;y&apos;</b>.
         Also known as a lookahead.</td>
     </tr>
     <tr>
@@ -198,13 +198,13 @@ description: regular expressions
   </tbody>
 </table>
 
-### Testers
+## Testers
 
 * [pythex](https://pythex.org/): a python regular expression composer with a cheatsheet and multiline support.
 * [debuggex](https://www.debuggex.com/): online regex tester for python and javascript presents the expression in a graph way describying each part and multiline support.
 * [extendsclass](https://extendsclass.com/regex-tester.html): online regex tester for javascript, python, ruby, java, php and mysql with a regex visualizer.
 
-### Source
+## Source
 
 * [Regular-Expressions-info](https://www.regular-expressions.info/): brings a comprehensive documentation about regex.
 
