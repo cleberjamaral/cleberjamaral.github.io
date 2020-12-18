@@ -36,4 +36,6 @@ description: Signpost of nice words and phrases
 * spawned a variety
 * has been debunked by
 * [to the best of my knowledge](https://www.macmillanthesaurus.com/to-the-best-of-my-knowledge)
+* to stifle the: to avoid
+* sat down with people: interviewed, discussed
 
