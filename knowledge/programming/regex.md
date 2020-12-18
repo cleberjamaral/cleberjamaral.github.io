@@ -202,6 +202,7 @@ description: regular expressions
 
 * [pythex](https://pythex.org/): a python regular expression composer with a cheatsheet and multiline support.
 * [debuggex](https://www.debuggex.com/): online regex tester for python and javascript presents the expression in a graph way describying each part and multiline support.
+* [extendsclass](https://extendsclass.com/regex-tester.html): online regex tester for javascript, python, ruby, java, php and mysql with a regex visualizer.
 
 ### Source
 
