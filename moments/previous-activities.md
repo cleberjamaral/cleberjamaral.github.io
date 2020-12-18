@@ -1,5 +1,6 @@
 # previous activities
 
+* 12/2019: I have presented to NZDIS research group of Information Science Department of University of Otago my latest thoughts and my open issues about Organization Design.
 * 10/2019: [I have exposed my Doctoral proposal ](https://www.linkedin.com/posts/cleber-jorge-amaral-77827a10_doutorado-qualificado-com-sucesso-supervisionado-activity-6571903577474822144-N-av)at the University of Otago.
 * 08/2019: [I have defended my Doctoral proposal in UFSC](https://www.linkedin.com/posts/cleber-jorge-amaral-77827a10_doutorado-qualificado-com-sucesso-supervisionado-activity-6571903577474822144-N-av).
 * 06/2019: I have presented [my doctoral project](https://www.slideshare.net/clebercbr/doctoral-proposal-from-goals-to-organisations-automated-organisation-generator-for-mas) and a research regarding interoperabiliby in the Industry 4.0 context [PAAMS](https://www.paams.net/) conference.
