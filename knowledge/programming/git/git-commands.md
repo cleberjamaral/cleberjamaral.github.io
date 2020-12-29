@@ -56,3 +56,7 @@
 * Remove old references `$ rm -rf .git/refs/original/`
 * Prune garbage `$ git reflog expire --expire=now --all && git gc --aggressive --prune=now`
 
+### checking staged diffs
+
+* Checking staged diffs: `$ git diff --cached`
+
