@@ -15,15 +15,15 @@ So, changing the framework is often exciting because it is a way to change the r
 
 Currently, I am probably in my record in time using the same approach. I have opted to use what I think is a lightweight method in terms of administration costs. What I mainly do:
 
-* Appointments are registered in a digital calendar \(I use google calendar\)
+* Appointments are registered in a digital calendar \(I use Google Calendar\)
   * It is the only thing I have enabled notifications
 * I manage tasks in a kanban like system
   * I have four columns: to do \(I did not set priority yet\), medium priority, high priority and in progress
   * There is no "done" column
   * I try my best to keep few tasks in these columns \(not more than 20 in total\)
-* When I am out and want to remember myself about something I use to write an [email](mails-and-emails.md) to myself
+* When I am out and want to remember myself about something I write an [email](mails-and-emails.md) to myself
 * I have in [my gitbook](../plans/) a list of things that I would like to do, but I don't feel committed with that  
 * I try my best to:
-  * Do not register not essential tasks
+  * Do not register non-essential tasks
   * Say "no"
 

@@ -7,6 +7,7 @@
   * [agenda and tasks](self-management/agenda-and-tasks.md)
   * [mails and emails](self-management/mails-and-emails.md)
 * [knowledge](knowledge/README.md)
+  * [career](knowledge/career.md)
   * [programming](knowledge/programming/README.md)
     * [C/C++](knowledge/programming/c-c++.md)
     * [eclipse](knowledge/programming/eclipse.md)
