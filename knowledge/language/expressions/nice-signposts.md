@@ -38,4 +38,5 @@ description: Signpost of nice words and phrases
 * [to the best of my knowledge](https://www.macmillanthesaurus.com/to-the-best-of-my-knowledge)
 * to stifle the: to avoid
 * sat down with people: interviewed, discussed
+* [are a staple of](https://dictionary.cambridge.org/us/dictionary/english/staple): a main product or part of something
 
