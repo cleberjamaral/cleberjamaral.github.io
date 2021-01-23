@@ -25,7 +25,7 @@ description: Signpost of nice words and phrases
 * [sweet as](https://www.powerthesaurus.org/sweet_as/synonyms): you rock
 * [get off the ground](https://www.powerthesaurus.org/get_off_the_ground/synonyms): start something
 * [ticking along](https://www.usingenglish.com/reference/phrasal-verbs/tick.html): making progress
-* [conerstone](https://www.merriam-webster.com/dictionary/cornerstones): a basic element
+* [cornerstone](https://www.merriam-webster.com/dictionary/cornerstones): a basic element
 * [shed light on](https://www.powerthesaurus.org/shed_light_on): make clear
 * [recent years have witnessed](https://www.linguee.com/english-portuguese/search?query=recent+years+have+witnessed)
 * most notably
@@ -39,4 +39,5 @@ description: Signpost of nice words and phrases
 * to stifle the: to avoid
 * sat down with people: interviewed, discussed
 * [are a staple of](https://dictionary.cambridge.org/us/dictionary/english/staple): a main product or part of something
+* lies with: falls upon
 
