@@ -13,3 +13,9 @@ Currently, fighting fake news is a top priority for social-media companies and o
 * [10 Fact-Checking Tools for Competitive Intelligence, Competitor Analysis Research](https://archintel.com/competitive-intelligence-news/10-fact-checking-tools-for-competitive-intelligence-competitor-analysis-research/)
 * [Tools for fact checking](https://newsreel.pte.hu/glossary/tools_fact_checking)
 
+### A possible approach
+
+* Q&A sites such as stack overflow is a possible approach towards a new tool to fight fake news. It is possible to use Stack Exchange platform, but it seems it should be [proposed to the "Area 51"](https://area51.stackexchange.com/faq). It is probably not easy because it needs to be approved and probably stack exchange platform should be slightly changed for fact checking context. The overall concept of voting to answers is great, but it should have a way to label an answer saying the claim is "true", "false" and may be "inconclusive".
+
+
+
