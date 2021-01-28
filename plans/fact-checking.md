@@ -12,6 +12,7 @@ Currently, fighting fake news is a top priority for social-media companies and o
 
 * [10 Fact-Checking Tools for Competitive Intelligence, Competitor Analysis Research](https://archintel.com/competitive-intelligence-news/10-fact-checking-tools-for-competitive-intelligence-competitor-analysis-research/)
 * [Tools for fact checking](https://newsreel.pte.hu/glossary/tools_fact_checking)
+* [boatos.org](https://www.boatos.org/)
 
 ### A possible approach
 
