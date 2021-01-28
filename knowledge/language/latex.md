@@ -4,9 +4,7 @@ description: Formal methods reference
 
 # latex
 
-
-
-### [Variable Names](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id3)
+### Variable Names
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -15,7 +13,7 @@ description: Formal methods reference
 | Statements | P, Q, R, S | `P, Q, R, S` |  |
 | Statements with variables | P\(x\), Q\(x\), R\(x\), S\(x\) | `P(x), Q(x), R(x), S(x)` |  |
 
-### [Set Theory](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id4)
+### Set Theory
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -47,9 +45,7 @@ description: Formal methods reference
 | Set of irrational numbers | II | `\mathbb{I}` |  |
 | Set of complex numbers | CC | `\mathbb{C}` |  |
 
-### 
-
-### [Cartesian Products](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id5)
+### Cartesian Products
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -60,7 +56,7 @@ description: Formal methods reference
 | Cartesian plane | R×R | `\mathbb{R} \times \mathbb{R}` | {\(x,y\)∣x,y∈R}{\(x,y\)∣x,y∈R} |
 | Cartesian power | An | `A^n` | A×A×…×A={x1,x2,…,xn\|x1,x2,…,xn∈A} |
 
-### [Types](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id6)
+### Types
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -69,7 +65,7 @@ description: Formal methods reference
 | Two-argument function signature | func:R×N→N | `\textrm{func}:\mathbb{R} \times \mathbb{N} \rightarrow \mathbb{N}` | type of arguments is product type |
 | Enumerated type | signal=r \| y \| g | `\textrm{signal} = \textrm{r}~|~\textrm{y}~|~\textrm{g}` | type union of literals |
 
-### [Mathematical Operators](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id7)
+### Mathematical Operators
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -85,7 +81,7 @@ description: Formal methods reference
 | More than | a&lt;b | `a < b` | binary |
 | More than or equal | a≤b | `a \le b` | binary |
 
-### [Bags](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id8)
+### Bags
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -97,7 +93,7 @@ description: Formal methods reference
 | Bag intersection | \[\[a,b,b,c,d\]\]∩\[\[a,b,c,c,d\]\]=\[\[a,b,c,d\]\] | `[\![ a,b,b,c,d ]\!] \cap [\![ a,b,c,c,d ]\!] = [\![ a,b,c,d ]\!]` | Minimum number an element occurs |
 | Bag difference | \[\[a,b,b,c,d\]\]−\[\[a,b,c,c,d\]\]=\[\[b,c\]\] | `[\![ a,b,b,c,d ]\!] - [\![ a,b,c,c,d ]\!] = [\![ b,c ]\!]` | Subtract the number of elements in the second bag from the first |
 
-### [Sequences](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id9)
+### Sequences
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -114,7 +110,7 @@ description: Formal methods reference
 | List | &lt;a,b,c&gt; or \(a,b,c\) or abc | `<a,b,c>` or `(a,b,c)` or `abc` | An alternative notation and naming used by some formal notations |
 | Empty list | \(\) | `()` |  |
 
-### [Formal Logic](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id10)
+### Formal Logic
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -124,7 +120,7 @@ description: Formal methods reference
 | Implication | →or ⇒ or ⊃ | `\rightarrow` or `\Rightarrow` or `\supset` | premise→conclussion |
 | Equivalence | ↔or ⇔ or ≡ | `\leftrightarrow` or `\Leftrightarrow` or `\equiv` |  |
 
-#### [Equivalence Laws](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id11)
+#### Equivalence Laws
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -151,7 +147,7 @@ description: Formal methods reference
 | And-Simplification \(true\) | P∧tt ≡ P | `P \wedge tt \equiv P` |  |
 | And-Simplification \(false\) | P∧ff ≡ ff | `P \wedge ff \equiv ff` |  |
 
-#### [Logic Forms](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id12)
+#### Logic Forms
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -163,7 +159,7 @@ description: Formal methods reference
 | Conjunction | P, Q ⊢ P∧Q | `P, Q \vdash P \wedge Q` |  |
 | Addition | P ⊢ P∨Q | `P \vdash P \vee Q` |  |
 
-#### [Predicate Logic](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id13)
+#### Predicate Logic
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -178,7 +174,7 @@ description: Formal methods reference
 | Covnersion between qualifiers \(3\) | ¬∀x∙¬Px ≡ ∃x∙Px | `\neg\forall_x \bullet \neg P_x \equiv \exists_x \bullet P_x` |  |
 | Covnersion between qualifiers \(4\) | ∀x∙¬Px ≡ ¬∃x∙Px | `\forall_x \bullet \neg P_x \equiv \neg\exists_x \bullet P_x` | Alternatively ∄x |
 
-### [Relationships and Functions](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id14)
+### Relationships and Functions
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -189,7 +185,7 @@ description: Formal methods reference
 | Range | range\(f\) | `\mathrm{range}(f)` | range\({\(1,a\),\(2,b\),\(3,c\)}\)={a,b,c} |
 | Partial function signiature | f: X↛ Y | `f:X \nrightarrow Y` | Not all elements from X are mapped to elements from Y |
 
-### [Transactional Memory](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id15)
+### Transactional Memory
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -208,7 +204,7 @@ description: Formal methods reference
 | Write |  |  |  |
 | Operation | π | `\pi` |  |
 
-#### [Notation for Presenting Histories](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id16)
+#### Notation for Presenting Histories
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
@@ -234,14 +230,14 @@ description: Formal methods reference
 | Point in time | τ | `\tau` | E.g. transaction Ti starts at time τi |
 | State at point in time | {x=1,y=2,z=3} | `\{ x\!=\!1,y\!=\!2,z\!=\!3 \}` |  |
 
-### [Theorems](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id17)
+### Theorems
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
 | Proof | \begin{proof} ... \end{proof} | `\begin{proof} ... \end{proof}` |  |
 | Named proof | \begin{proof}\[name\] ... \end{proof} | `\begin{proof}[name] ... \end{proof}` |  |
 
-### [Various](http://www.cs.put.poznan.pl/ksiek/latexmath.html#id18)
+### Various
 
 | Concept | Math | LaTeX | Notes |
 | :--- | :--- | :--- | :--- |
