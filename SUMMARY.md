@@ -2,6 +2,7 @@
 
 * [cleber's mind](README.md)
 * [plans](plans/README.md)
+  * [fact checking](plans/fact-checking.md)
   * [personal assistant](plans/personal-assistant.md)
 * [self-management](self-management/README.md)
   * [agenda and tasks](self-management/agenda-and-tasks.md)
