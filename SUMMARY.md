@@ -11,6 +11,7 @@
   * [career](knowledge/career.md)
   * [programming](knowledge/programming/README.md)
     * [C/C++](knowledge/programming/c-c++.md)
+    * [databases](knowledge/programming/databases.md)
     * [eclipse](knowledge/programming/eclipse.md)
     * [gradle](knowledge/programming/gradle.md)
     * [java](knowledge/programming/java/README.md)
