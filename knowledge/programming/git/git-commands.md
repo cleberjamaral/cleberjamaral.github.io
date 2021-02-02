@@ -18,7 +18,7 @@
 * For stashing current changes `$ git stash`
 * To show what is stashed `$ git stash list` and `$ git stash show`
 * For popping out the last stashed changes `$ git stash apply`
-* Stash only un-staged changes `$ git stash save --keep-index`
+* Stash only unstaged changes `$ git stash save --keep-index`
 
 ### **adding main repo as upstream**
 
@@ -30,7 +30,7 @@
 
 1. go to master `git checkout master`
 2. make sure it is updated solving conflicts if they exist `git pull origin master`
-3. merge with the branch \(list of branchs can be obtained by `git branch`\) `git merge branch_name`
+3. merge with the branch \(list of branches can be obtained by `git branch`\) `git merge branch_name`
 4. push merged local repository `git push origin master`
 
 ### managing tags
@@ -38,7 +38,7 @@
 * Creating a tag: `$ git tag -a vX.Y -m "message"`
 * Pushing a tag: `$ git push origin vX.Y` or `$ git push origin --tags`
 
-### go to a specific commit and back to latest master
+### go to a specific commit and back to the latest master
 
 1. go to specific commit `git checkout <sha>`
 2. do the necessary job
@@ -47,7 +47,7 @@
 
 ### cherry-picking - add a specific commit to another branch
 
-1. Checkout the branch in which the commit will be added \(eg.: master\): `$ git checkout master`
+1. Checkout the branch in which the commit will be added \(e.g.: master\): `$ git checkout master`
 2. Execute the cherry-pick `$ git cherry-pick <commit-hash>`
 
 ### permanently removing files from git
