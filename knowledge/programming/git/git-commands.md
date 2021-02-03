@@ -60,3 +60,7 @@
 
 * Checking staged diffs: `$ git diff --cached`
 
+### removing a file and all its history
+
+* `$ git filter-branch --tree-filter 'rm -f path/to/file' -- --all`
+
