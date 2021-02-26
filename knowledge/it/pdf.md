@@ -21,5 +21,9 @@
     * `sharpen` Gaussin operator to sharpen the image
   * Example \([source](https://gist.github.com/andyrbell/25c8632e15d17c83a54602f6acde2724)\):  `$ convert -density 150 input.pdf -rotate "$([ $((RANDOM % 2)) -eq 1 ] && echo -)0.$(($RANDOM % 3))" -attenuate 0.15 +noise Multiplicative -flatten -attenuate 0.02 +noise Multiplicative -sharpen 0x1.0 output.pdf`
 
+### Metadata info of a pdf
+
+* command pdfinfo: `$ pdfinfo file.pdf`
+
 
 
