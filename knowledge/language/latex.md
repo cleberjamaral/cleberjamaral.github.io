@@ -53,7 +53,7 @@ description: Formal methods reference
 | Triple | \(a,b,c\) | `(a,b,c)` |  |
 | N-tuple | \(e1,…,en\) | `(e_1, \ldots, e_n)` |  |
 | Cartesian product | A×B | `A \times B` | {\(a,b\)∣a∈A,b∈B} |
-| Cartesian plane | R×R | `\mathbb{R} \times \mathbb{R}` | {\(x,y\)∣x,y∈R}{\(x,y\)∣x,y∈R} |
+| Cartesian plane | R×R | `\mathbb{R} \times \mathbb{R}` | {\(x,y\)∣x,y∈R} |
 | Cartesian power | An | `A^n` | A×A×…×A={x1,x2,…,xn\|x1,x2,…,xn∈A} |
 
 ### Types
