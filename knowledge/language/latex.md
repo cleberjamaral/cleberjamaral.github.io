@@ -248,4 +248,6 @@ description: Formal methods reference
 
 * [Konrad Siek LaTex Formal Methods Reference](http://www.cs.put.poznan.pl/ksiek/latexmath.html)
 * [OEIS Foundation LaTex mathematical symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
+* [The Comprehensive LATEX Symbol List](http://linorg.usp.br/CTAN/info/symbols/comprehensive/symbols-a4.pdf)
+* Handwriting characters tool to find most suitable latex symbol: [Detexify](http://detexify.kirelabs.org/classify.html)
 
