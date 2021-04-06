@@ -10,7 +10,12 @@
 ### Useful commands
 
 * List tmux commands: **`Ctrl + b ?`**
+
+### Working with sessions
+
+* Rename session: **`Ctrl + b $`**
 * Detach from the current session: **`Ctrl + b d`**
+* Move to another session: **`Ctrl + b (`**, or **`Ctrl + b )`** 
 
 ### Working with panes
 
@@ -25,4 +30,10 @@
 
 * Enter copy mode: **`Ctrl + b [`**, or **`Ctrl + PgUp`** 
 * Quit copy mode: **`q`**
+
+#### 
+
+#### Sources
+
+* [tmux cheat sheet](https://tmuxcheatsheet.com/)
 
