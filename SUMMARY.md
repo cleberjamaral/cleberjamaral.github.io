@@ -49,6 +49,7 @@
     * [deploy](knowledge/it/deploy/README.md)
       * [heroku](knowledge/it/deploy/heroku.md)
     * [linux](knowledge/it/linux/README.md)
+      * [tmux](knowledge/it/linux/tmux.md)
       * [vim](knowledge/it/linux/vim.md)
       * [startup](knowledge/it/linux/startup.md)
     * [networks](knowledge/it/networks.md)

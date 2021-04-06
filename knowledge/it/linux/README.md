@@ -26,7 +26,5 @@ Creating: `$ ln -s FILE LINK`
 * Usb controllers info `$ lsusb`
 * File system info `$ sudo fdisk -l`
 
-### tmux
 
-* [How to use tmux](https://gist.github.com/cleberjamaral/5ac549e099a3f5de947c0064a2a30450)
 
