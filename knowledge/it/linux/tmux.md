@@ -13,6 +13,7 @@
 
 ### Working with sessions
 
+* Create a new session: **`Ctrl + b : new`**
 * Rename session: **`Ctrl + b $`**
 * Detach from the current session: **`Ctrl + b d`**
 * Move to another session: **`Ctrl + b (`**, or **`Ctrl + b )`** 
