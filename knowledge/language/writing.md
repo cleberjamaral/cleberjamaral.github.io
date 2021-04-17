@@ -16,3 +16,8 @@ I try to follow my [editing checklist](https://gist.github.com/cleberjamaral/624
 * [greek alphabet](https://www.rapidtables.com/math/symbols/greek_alphabet.html)
 * [plagiarism search](https://plagiarismsearch.com/) and [turnitin](https://www.turnitin.com/)
 
+### Free and creative-commons image repositories:
+
+* [OpenClipart ](https://openclipart.org/)has many cliparts in svg format, all then in public domain 
+* [FreeSVG](https://freesvg.org/) is also for publi domain cliparts \(however, it has ads ta drives to other sources that may not be for puclic domain content\)
+
