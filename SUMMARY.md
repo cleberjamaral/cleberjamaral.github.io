@@ -68,6 +68,7 @@
   * [emergency](knowledge/emergency.md)
   * [out of boxes](knowledge/out-of-boxes.md)
 * [teaching](teaching/README.md)
+  * [eletrônica digital](teaching/eletronica-digital.md)
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
 * [moments](moments/README.md)
