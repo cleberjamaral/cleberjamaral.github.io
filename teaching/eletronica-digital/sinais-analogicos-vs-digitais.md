@@ -1,6 +1,6 @@
 # Sinais analógicos vs digitais
 
-### Roteiro Short Video - dicretização
+### Roteiro Short Video - discretização
 
 <table>
   <thead>
@@ -59,6 +59,19 @@
     </tr>
   </tbody>
 </table>
+
+### Roteiro Short Video - analógico vs digital
+
+| Cena | Fala | Imagem |
+| :--- | :--- | :--- |
+| Intro | Bóra lá ver um exemplo que mostra bem a diferença de analógico e digital? | Contrói gráfico |
+| Sinal | Considere esse sinal analógico de uma amplitude qualquer que varia no tempo. Pode ser a variação de temperatura, um sinal de áudio, vecolidade de um corpo, enfim. | Sinal analógico |
+| Digitalização | Agora considere esta curva em amarelo, é uma possível digitalização do sinal analógico. | Sinal digital |
+| Zoom | Vamos ver mais de perto | Zoom |
+| Continuo | Observe que o sinal analógico é contínuo, ou seja, em um segmento do sinal há infinitos valores de grandeza que vão alterando gradativamente.  | Ponto move continuamente |
+| Discreto | Agora preste atenção no sinal digital. O sinal estava em um patamar de amplitude e pulou para outro patamar. Aqui permanece sem se alterar enquanto o tempo passa, e de repende, ops... pula para outro patamar de amplitude. | Ponto move discretamente |
+| Resumo | Sinais digitais são discretos, ou seja, descontínuos. |  |
+| Conclusão | Reparou a diferença? Curtiu esse vídeo? Deixe seu comentário! |  |
 
 
 
