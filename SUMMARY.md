@@ -70,6 +70,7 @@
 * [teaching](teaching/README.md)
   * [eletrônica digital](teaching/eletronica-digital/README.md)
     * [Conversão decimal para binário](teaching/eletronica-digital/conversao-decimal-para-binario.md)
+    * [Conversão binário para decimal](teaching/eletronica-digital/conversao-binario-para-decimal.md)
     * [Sinais analógicos vs digitais](teaching/eletronica-digital/sinais-analogicos-vs-digitais.md)
   * [programação I](teaching/programacao-i.md)
   * [cabeamento estruturado](teaching/cabeamento-estruturado.md)
