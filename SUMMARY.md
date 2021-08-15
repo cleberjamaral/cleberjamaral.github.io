@@ -10,6 +10,7 @@
 * [knowledge](knowledge/README.md)
   * [career](knowledge/career.md)
   * [programming](knowledge/programming/README.md)
+    * [Big O Notation](knowledge/programming/big-o-notation.md)
     * [C/C++](knowledge/programming/c-c++.md)
     * [databases](knowledge/programming/databases.md)
     * [eclipse](knowledge/programming/eclipse.md)
