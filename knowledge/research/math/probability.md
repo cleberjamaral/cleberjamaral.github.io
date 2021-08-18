@@ -10,7 +10,7 @@ P\(A∪B\) = P\(A\) + P\(B\) - P\(A∩B\) = 0.3 + 0.3 - 0.09 = 0.51
 
 It is the probability of A or B or both occurring. It is actually calculated by P\(A\) + P\(B\) minus the probability of A and B both occuring \(i.e. P\(A∩B\)\). The probability of both occurring is given by P\(A∩B\) = P\(A\) × P\(B\), which is this example is 0.3 × 0.3 = 0.09.
 
-Culculate at [calculator.net](https://www.calculator.net/probability-calculator.html?cal1pa=0.3&cal1pb=0.3&calctype=twoe&x=91&y=14)
+Culculate at [Law of sines Calculator](https://taskvio.com/maths/trigonometry-calculators/law-of-sines-calculator/)
 
 ### Example \#2 \(hypothetical probabilities\)
 
@@ -23,5 +23,5 @@ Probability of B occuring one in four = 1 - \(1 - 0.6\)^4 = 0.9744
 
 It means that in the current date, 5 days after the exposition, the probability of at least one of the four to present some symptom is about 76%. If they wait 2 more days, the probability of noticing a symptom if they are infected is 97%.
 
-Calculated at [calculator.net](https://www.calculator.net/probability-calculator.html?cal4pa=0.6&cal4par=4&cal4pb=0.3&cal4pbr=4&calctype=series&x=53&y=29#series)
+Calculated at [Law of sines Calculator](https://taskvio.com/maths/trigonometry-calculators/law-of-sines-calculator/)
 
