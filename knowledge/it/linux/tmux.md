@@ -16,25 +16,24 @@
 * Create a new session: **`Ctrl + b : new`**
 * Rename session: **`Ctrl + b $`**
 * Detach from the current session: **`Ctrl + b d`**
-* Move to another session: **`Ctrl + b (`**, or **`Ctrl + b )`** 
+* Move to another session: **`Ctrl + b (`**, or ** `Ctrl + b )`**&#x20;
 
 ### Working with panes
 
 * Split pane vertically: **`Ctrl + b %`**
 * Split pane horizontally: **`Ctrl + b "`**
-* Switch to the next pane: **`Ctrl + b o`**
-* Switch to another pane: **`Ctrl + b ←`**, or **`Ctrl + b →`**, or **`Ctrl + b ↑`, or ↓**
+* Switch to the next pane: ** `Ctrl + b o`**
+* Switch to another pane: ** `Ctrl + b ←`**, or ** `Ctrl + b →`**, or ** `Ctrl + b ↑`, or ↓**
 * Close pane: **Ctrl + b x**
-* Move the pane: **`Ctrl + b {`**, or **`Ctrl + b }`** 
+* Move the pane: **`Ctrl + b {`**, or ** `Ctrl + b }`**&#x20;
 
 ### Copy mode
 
-* Enter copy mode: **`Ctrl + b [`**, or **`Ctrl + PgUp`** 
+* Enter copy mode: **`Ctrl + b [`**, or ** `Ctrl + PgUp`**&#x20;
 * Quit copy mode: **`q`**
 
-#### 
+####
 
 #### Sources
 
 * [tmux cheat sheet](https://tmuxcheatsheet.com/)
-
