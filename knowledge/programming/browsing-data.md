@@ -10,3 +10,7 @@
 * `curl -L http://www.ifsc.edu.br` follow the links (redirects)
 * `curl -L -H "Accept: text/turtle" http://dbpedia.org/resource/Tim_Berners-Lee` get the turtle content provided by the referenced URI
 
+Sources
+
+* [ai4industry Summer School - EMSE](https://www.emse.fr/\~zimmermann/AI4Industry/2023/)
+
