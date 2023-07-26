@@ -4,7 +4,7 @@ description: Knowledge-Graphs, SPARQL
 
 # web-semantics
 
-#### A database to play
+### A database to play
 
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -18,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   <wealthInDollars> "107.9e9"^^xsd:double 
 ```
 
-#### Retrieving all the that of the DB
+### Retrieving all the that of the DB
 
 ```
 PREFIX : <http://example.org/#>
@@ -27,7 +27,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT * WHERE { ?s ?p ?o } LIMIT 10
 ```
 
-#### Another database to play
+### Another database to play
 
 ```
 PREFIX : <http://example.org/#>
@@ -39,7 +39,7 @@ PREFIX : <http://example.org/#>
   :hasSpeed "0.1" .
 ```
 
-#### Retrieving all the that of the DB
+### Retrieving all the that of the DB
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
@@ -80,4 +80,5 @@ SELECT * WHERE { ?s :hasSubSystem ?SS. ?SS :hasSpeed "0.1". } LIMIT 10
 
 ## Sources
 
-* [ai4industry Summer School - EMSE](https://www.emse.fr/\~zimmermann/AI4Industry/2023/)
+* [ai4industry Summer School - KG introductory exercises - EMSE](https://www.emse.fr/\~zimmermann/AI4Industry/2023/)
+* [ai4industry Summer School - hackathon](https://gitlab.emse.fr/ai4industry/hackathon/-/wikis/scenario)
