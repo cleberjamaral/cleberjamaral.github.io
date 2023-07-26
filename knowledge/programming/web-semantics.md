@@ -1,10 +1,8 @@
+---
+description: Knowledge-Graphs, SPARQL
+---
+
 # web-semantics
-
-## SPARQL
-
-### Using a playground
-
-Playground: [http://rdfplayground.dcc.uchile.cl/](http://rdfplayground.dcc.uchile.cl/)
 
 #### A database to play
 
@@ -74,6 +72,11 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 SELECT * WHERE { ?s :hasSubSystem ?SS. ?SS :hasSpeed "0.1". } LIMIT 10
 ```
+
+## Tools
+
+* [RDF Browser ](https://addons.mozilla.org/en-US/firefox/addon/rdf-browser/)extension for Firefox
+* [RDF Playground](http://rdfplayground.dcc.uchile.cl/) by Universidad de Chile
 
 ## Sources
 
