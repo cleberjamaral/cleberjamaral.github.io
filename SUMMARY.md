@@ -24,6 +24,7 @@
     * [naming convention](knowledge/programming/naming-convention.md)
     * [web-semantics](knowledge/programming/web-semantics.md)
     * [browsing data](knowledge/programming/browsing-data.md)
+    * [wot](knowledge/programming/wot.md)
     * [version control](knowledge/programming/git/README.md)
       * [git commands](knowledge/programming/git/git-commands.md)
   * [research](knowledge/research/README.md)
