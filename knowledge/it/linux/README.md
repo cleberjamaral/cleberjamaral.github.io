@@ -4,9 +4,9 @@
 
 ### Setting alternatives
 
-For instance, for python3: 
+For instance, for python3:&#x20;
 
-`$ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1`  
+`$ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1`\
 `$ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2`
 
 Selecting from alternatives:
@@ -26,5 +26,13 @@ Creating: `$ ln -s FILE LINK`
 * Usb controllers info `$ lsusb`
 * File system info `$ sudo fdisk -l`
 
+### dd command -convert and copy
 
+To format the volume
+
+`$ sudo dd bs=4M if=/dev/zero of=/dev/device oflag=sync status=progress`
+
+To copy an image to the volume
+
+`$ sudo dd bs=4M if=/path/file.img of=/dev/device oflag=sync status=progress`
 

@@ -19,6 +19,7 @@
     * [java](knowledge/programming/java/README.md)
       * [apache camel](knowledge/programming/java/apache-camel.md)
     * [javascript](knowledge/programming/javascript.md)
+    * [mysql](knowledge/programming/mysql.md)
     * [prolog](knowledge/programming/prolog.md)
     * [regex](knowledge/programming/regex.md)
     * [REST](knowledge/programming/rest.md)
