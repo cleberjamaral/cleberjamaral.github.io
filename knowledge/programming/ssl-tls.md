@@ -36,3 +36,11 @@ If everything is well, you can renew the certificate running:
 $ sudo certbot renew
 ```
 
+Suba o servidor web novamente
+
+```
+$ sudo systemctl start apache2
+or
+$ sudo systemctl start nginx
+```
+
