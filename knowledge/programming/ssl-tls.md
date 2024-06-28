@@ -16,6 +16,8 @@ Check existing certificates:
 <pre><code><strong>$ sudo certbot certificates
 </strong></code></pre>
 
+Os certificados ficam por padrão na pasta `/etc/letsencrypt/live/`
+
 To update the existing certificates, first stop your webserver (nginx, apache, or another):
 
 ```
