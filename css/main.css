@@ -390,6 +390,37 @@ ul.a ul.a {
     color: var(--ink-muted);
 }
 
+.skills-list {
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list li {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    gap: 0.75rem 1.25rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-muted);
+    font-size: 1.02rem;
+}
+
+.skills-list li:last-child {
+    border-bottom: none;
+}
+
+.skill-area {
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
+    align-self: start;
+    padding-top: 0.15rem;
+}
+
 @keyframes rise-in {
     from {
         opacity: 0;
@@ -443,5 +474,10 @@ ul.a ul.a {
 
     .course-code {
         justify-self: start;
+    }
+
+    .skills-list li {
+        grid-template-columns: 1fr;
+        gap: 0.3rem;
     }
 }
