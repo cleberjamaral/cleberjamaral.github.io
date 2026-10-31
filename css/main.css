@@ -153,8 +153,76 @@ p {
     line-height: 1.65;
 }
 
-.blurb {
+.section-label {
+    margin: 0 0 0.45rem;
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.meta {
+    font-family: var(--font-body);
+    font-size: 0.85em;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--ink-muted);
+}
+
+.content-block {
+    margin-top: 2.25rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+}
+
+.content-block:first-of-type {
+    margin-top: 1.5rem;
+}
+
+.content-block > .section-label + h2,
+.profile-copy > .section-label + h1 {
+    margin-top: 0;
+}
+
+.content-block > h2 {
+    margin-top: 1.75rem;
+}
+
+.content-block > .section-label + h2 {
+    margin-top: 0.15rem;
+}
+
+.profile-hero {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem 1.75rem;
+    align-items: start;
     animation: rise-in 0.7s ease both;
+}
+
+.profile-hero--compact {
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.profile-photo {
+    width: clamp(7.5rem, 22vw, 9.5rem);
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 0.35rem;
+    border: 1px solid var(--line);
+    box-shadow: 0 10px 28px rgba(28, 36, 48, 0.1);
+}
+
+.profile-copy h1 {
+    margin-bottom: 0.85rem;
+}
+
+.blurb {
+    animation: none;
 }
 
 .blurb .lede {
@@ -235,13 +303,91 @@ ul.a {
     color: var(--ink-muted);
 }
 
+ul.a.list-clean {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.a.list-clean > li {
+    position: relative;
+    padding: 0.85rem 0 0.85rem 1rem;
+    border-bottom: 1px solid var(--line);
+}
+
+ul.a.list-clean > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.15rem;
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+ul.a.list-clean > li:last-child {
+    border-bottom: none;
+}
+
 ul.a li {
     margin-bottom: 0.45rem;
 }
 
+ul.a.list-clean > li {
+    margin-bottom: 0;
+}
+
 ul.a ul.a {
-    margin-top: 0.4rem;
-    margin-bottom: 0.6rem;
+    margin-top: 0.65rem;
+    margin-bottom: 0.25rem;
+    padding-left: 1.1rem;
+    list-style-type: disc;
+}
+
+.course-list {
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.course-list li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.2rem 1rem;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.course-list li:last-child {
+    border-bottom: none;
+}
+
+.course-name {
+    grid-column: 1;
+    color: var(--ink);
+    font-size: 1.02rem;
+}
+
+.course-name em {
+    font-style: normal;
+    color: var(--ink-muted);
+    font-size: 0.92em;
+}
+
+.course-code {
+    grid-column: 2;
+    justify-self: end;
+    align-self: start;
+    font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 0.82rem;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+}
+
+.course-terms {
+    grid-column: 1 / -1;
+    font-size: 0.88rem;
+    color: var(--ink-muted);
 }
 
 @keyframes rise-in {
@@ -281,5 +427,21 @@ ul.a ul.a {
 
     nav ul {
         gap: 0.5rem 1rem;
+    }
+
+    .profile-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-photo {
+        width: 7rem;
+    }
+
+    .course-list li {
+        grid-template-columns: 1fr;
+    }
+
+    .course-code {
+        justify-self: start;
     }
 }
