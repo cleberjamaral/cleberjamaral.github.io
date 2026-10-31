@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | relative_url }}">
 </head>
 
 <body>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/activities">Activities</a></li>
-			<li><a href="https://cleberjamaral.gitbook.io/mind/">Mind</a></li>
-			<li><a href="/publications">Publications</a></li>
-		</ul>
-	</nav>
-	<div class="container">
-		{{ content }}
-	</div><!-- /.container -->
-	<footer>
-		<ul>
-			<li><a href="mailto:cleber.amaral@ifsc.edu.br">email</a></li>
-			<li><a href="https://wiki.sj.ifsc.edu.br/wiki/index.php/Usu%C3%A1rio:Cleber.amaral">wikipage</a></li>
-			<li><a href="https://github.com/cleberjamaral">repositories</a></li>
-		</ul>
-	</footer>
+	<div class="site-shell">
+		<header class="site-header">
+			<a class="site-mark" href="{{ '/' | relative_url }}">Cleber Jorge Amaral</a>
+			<nav aria-label="Primary">
+				<ul>
+					<li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+					<li><a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a></li>
+					<li><a href="{{ '/activities/' | relative_url }}"{% if page.url contains '/activities' %} class="active"{% endif %}>Activities</a></li>
+					<li><a href="https://cleberjamaral.gitbook.io/mind/">Mind</a></li>
+					<li><a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="active"{% endif %}>Publications</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container">
+			{{ content }}
+		</main>
+
+		<footer>
+			<ul>
+				<li><a href="mailto:cleber.amaral@ifsc.edu.br">Email</a></li>
+				<li><a href="https://br.linkedin.com/in/cleber-jorge-amaral-77827a10">LinkedIn</a></li>
+				<li><a href="https://scholar.google.com/citations?user=H8cwaykAAAAJ">Scholar</a></li>
+				<li><a href="https://github.com/cleberjamaral">GitHub</a></li>
+				<li><a href="https://wiki.sj.ifsc.edu.br/wiki/index.php/Usu%C3%A1rio:Cleber.amaral">Wiki</a></li>
+			</ul>
+		</footer>
+	</div>
 </body>
 
 </html>
